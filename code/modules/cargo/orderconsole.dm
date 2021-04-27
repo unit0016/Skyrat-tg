@@ -24,6 +24,13 @@
 	var/list/loaded_coupons
 	/// var that makes express console use rockets
 	var/is_express = FALSE
+	//SKYRAT EDIT ADDITION START - CARGO//
+	var/cargo_shuttle = "supply"
+	var/docking_home = "supply_home"
+	var/docking_away = "supply_away"
+	var/stationcargo = TRUE //Set to false on off-station cargo shuttles.
+	var/cargo_account = ACCOUNT_CAR
+	//SKYRAT EDIT ADDITION END - CARGO//
 
 
 /obj/machinery/computer/cargo/request
@@ -87,11 +94,12 @@
 /obj/machinery/computer/cargo/ui_data()
 	var/list/data = list()
 	data["location"] = SSshuttle.supply.getStatusText()
-	var/datum/bank_account/D = SSeconomy.get_dep_account(ACCOUNT_CAR)
+
+	var/datum/bank_account/D = SSeconomy.get_dep_account(cargo_account)	//SKYRAT EDIT ORIGINAL - var/datum/bank_account/D = SSeconomy.get_dep_account(ACCOUNT_CAR)
 	if(D)
 		data["points"] = D.account_balance
 	data["grocery"] = SSshuttle.chef_groceries.len
-	data["away"] = SSshuttle.supply.getDockedId() == "supply_away"
+	data["away"] = SSshuttle.supply.getDockedId() == docking_away //SKYRAT EDIT ORIGINAL - 	data["away"] = SSshuttle.supply.getDockedId() == "supply_away"
 	data["self_paid"] = self_paid
 	data["docked"] = SSshuttle.supply.mode == SHUTTLE_IDLE
 	data["loan"] = !!SSshuttle.shuttle_loan
@@ -161,15 +169,15 @@
 			if(SSshuttle.supplyBlocked)
 				say(blockade_warning)
 				return
-			if(SSshuttle.supply.getDockedId() == "supply_home")
+			if(SSshuttle.supply.getDockedId() == docking_home) //SKYRAT EDIT ORIGINAL - if(SSshuttle.supply.getDockedId() == "supply_home")
 				SSshuttle.supply.export_categories = get_export_categories()
-				SSshuttle.moveShuttle("supply", "supply_away", TRUE)
+				SSshuttle.moveShuttle(cargo_shuttle, docking_away, TRUE) //SKYRAT EDIT ORIGINAL - SSshuttle.moveShuttle("supply", "supply_away", TRUE)
 				say("The supply shuttle is departing.")
 				investigate_log("[key_name(usr)] sent the supply shuttle away.", INVESTIGATE_CARGO)
 			else
 				investigate_log("[key_name(usr)] called the supply shuttle.", INVESTIGATE_CARGO)
 				say("The supply shuttle has been called and will arrive in [SSshuttle.supply.timeLeft(600)] minutes.")
-				SSshuttle.moveShuttle("supply", "supply_home", TRUE)
+				SSshuttle.moveShuttle(cargo_shuttle, docking_home, TRUE) //SKYRAT EDIT ORIGINAL - SSshuttle.moveShuttle("supply", "supply_home", TRUE)
 			. = TRUE
 		if("loan")
 			if(!SSshuttle.shuttle_loan)
@@ -179,8 +187,12 @@
 				return
 			else if(SSshuttle.supply.mode != SHUTTLE_IDLE)
 				return
-			else if(SSshuttle.supply.getDockedId() != "supply_away")
+			else if(SSshuttle.supply.getDockedId() != docking_away) //SKYRAT EDIT ORIGINAL - else if(SSshuttle.supply.getDockedId() != "supply_away")
 				return
+			//SKYRAT EDIT ADDITION START - CARGO
+			else if(stationcargo != TRUE) //Prevents off-station cargo nerds from loaning the station cargo shuttle.
+				return
+			//SKYRAT EDIT ADDITION END - CARGO
 			else
 				SSshuttle.shuttle_loan.loan_shuttle()
 				say("The supply shuttle has been loaned to CentCom.")
@@ -292,7 +304,7 @@
 			self_paid = !self_paid
 			. = TRUE
 	if(.)
-		post_signal("supply")
+		post_signal(cargo_shuttle) //SKYRAT EDIT ORIGINAL - post_signal("supply")
 
 /obj/machinery/computer/cargo/proc/post_signal(command)
 
