@@ -371,6 +371,12 @@
 	name = "Ancient Circuit Imprinter (Machine Board)"
 	build_path = /obj/machinery/rnd/production/circuit_imprinter/offstation
 
+//SKYRAT EDIT BEGIN//
+/obj/item/circuitboard/machine/circuit_imprinter/offstation/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/stationloving)
+//SKYRAT EDIT END
+
 /obj/item/circuitboard/machine/circuit_imprinter/department
 	name = "Departmental Circuit Imprinter (Machine Board)"
 	icon_state = "generic"
@@ -428,6 +434,12 @@
 /obj/item/circuitboard/machine/protolathe/offstation
 	name = "Ancient Protolathe (Machine Board)"
 	build_path = /obj/machinery/rnd/production/protolathe/offstation
+
+//SKYRAT EDIT BEGIN//
+/obj/item/circuitboard/machine/protolathe/offstation/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/stationloving)
+//SKYRAT EDIT END
 
 /obj/item/circuitboard/machine/protolathe/department
 	name = "Departmental Protolathe (Machine Board)"
