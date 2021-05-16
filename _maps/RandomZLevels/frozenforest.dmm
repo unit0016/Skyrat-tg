@@ -12,6 +12,9 @@
 "br" = (
 /turf/closed/wall,
 /area/space)
+"bW" = (
+/turf/open/floor/pod,
+/area/space)
 "ch" = (
 /obj/structure/closet/crate/wooden,
 /obj/effect/spawner/lootdrop/costume,
@@ -31,7 +34,9 @@
 /turf/open/floor/stone,
 /area/space)
 "cr" = (
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "o2=22;n2=82;TEMP=255.37"
+	},
 /area/space)
 "cJ" = (
 /obj/structure/railing/stone/left,
@@ -39,6 +44,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/cable,
 /turf/open/floor/plating/cobblestone/dungeon,
+/area/space)
+"cN" = (
+/obj/item/melee/transforming/energy/sword/saber/blue,
+/turf/open/floor/plating/asteroid/snow/temperatre,
 /area/space)
 "dt" = (
 /turf/closed/indestructible/stone,
@@ -65,6 +74,11 @@
 	},
 /turf/open/floor/plating/cobblestone/dungeon,
 /area/space)
+"gb" = (
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
+/turf/open/floor/pod,
+/area/space)
 "gE" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -75,7 +89,9 @@
 /area/space)
 "gW" = (
 /obj/effect/spawner/lootdrop/grille_or_trash,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "o2=22;n2=82;TEMP=255.37"
+	},
 /area/space)
 "hh" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -84,6 +100,10 @@
 "hn" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
+/area/space)
+"hQ" = (
+/obj/machinery/sleeper/survival_pod,
+/turf/open/floor/pod,
 /area/space)
 "iR" = (
 /obj/machinery/door/airlock/science,
@@ -131,6 +151,9 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"nh" = (
+/turf/closed/wall/mineral/titanium/survival/pod,
+/area/space)
 "nr" = (
 /obj/structure/railing/stone,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -148,6 +171,14 @@
 "nX" = (
 /obj/structure/statue/snow/snowman,
 /turf/open/floor/plating/asteroid/snow/temperatre,
+/area/space)
+"oc" = (
+/obj/structure/table/survival_pod,
+/obj/item/toy/figure/miner{
+	pixel_x = 6;
+	pixel_y = 11
+	},
+/turf/open/floor/pod,
 /area/space)
 "oB" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -206,6 +237,10 @@
 	dir = 1
 	},
 /area/space)
+"sy" = (
+/obj/item/clothing/suit/hooded/wintercoat,
+/turf/open/floor/plating/asteroid/snow/temperatre,
+/area/space)
 "tq" = (
 /obj/effect/bump_teleporter{
 	id = null;
@@ -232,6 +267,21 @@
 "vp" = (
 /obj/effect/spawner/lootdrop/cigbutt,
 /turf/open/floor/iron,
+/area/space)
+"vr" = (
+/obj/structure/cable,
+/obj/structure/mineral_door/wood,
+/obj/structure/fans/tiny,
+/turf/open/floor/stone,
+/area/space)
+"vX" = (
+/turf/open/lava/plasma{
+	initial_gas_mix = "o2=22;n2=82;TEMP=255.37"
+	},
+/area/space)
+"we" = (
+/obj/effect/turf_decal/mining/survival,
+/turf/closed/wall/mineral/titanium/survival/pod,
 /area/space)
 "wr" = (
 /obj/machinery/computer/gateway_control,
@@ -262,16 +312,28 @@
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/stone,
 /area/space)
+"xq" = (
+/obj/item/pickaxe/improvised,
+/turf/open/floor/plating/asteroid/snow/temperatre,
+/area/space)
 "xx" = (
 /obj/effect/bump_teleporter{
 	id = "nowayout3"
 	},
 /turf/open/floor/iron,
 /area/space)
+"zz" = (
+/obj/item/etherealballdeployer,
+/turf/open/floor/plating/asteroid/snow/temperatre,
+/area/space)
 "zO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/wood,
 /turf/open/floor/stone,
+/area/space)
+"Af" = (
+/obj/item/toy/plush/moth,
+/turf/open/floor/plating/asteroid/snow/temperatre,
 /area/space)
 "Au" = (
 /obj/effect/decal/remains/human,
@@ -299,10 +361,22 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/space)
+"Dq" = (
+/mob/living/simple_animal/hostile/bear/snow,
+/turf/open/floor/plating/asteroid/snow/temperatre,
+/area/space)
+"Dt" = (
+/obj/effect/turf_decal/mining,
+/turf/closed/wall/mineral/titanium/survival/pod,
+/area/space)
 "DI" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone,
+/area/space)
+"DO" = (
+/obj/item/flashlight/lantern/syndicate,
+/turf/open/floor/plating/asteroid/snow/temperatre,
 /area/space)
 "DS" = (
 /obj/machinery/hydroponics/constructable,
@@ -336,6 +410,12 @@
 /obj/structure/cable,
 /turf/open/floor/stone,
 /area/space)
+"FX" = (
+/obj/effect/turf_decal/mining/survival{
+	dir = 4
+	},
+/turf/closed/wall/mineral/titanium/survival/pod,
+/area/space)
 "GI" = (
 /obj/structure/closet/l3closet/janitor,
 /turf/open/floor/iron,
@@ -357,6 +437,10 @@
 	id_target = "nowayout2"
 	},
 /turf/open/floor/iron,
+/area/space)
+"Ix" = (
+/mob/living/simple_animal/hostile/skeleton/eskimo,
+/turf/open/floor/plating/asteroid/snow/temperatre,
 /area/space)
 "IB" = (
 /obj/structure/table/reinforced,
@@ -381,6 +465,12 @@
 	dir = 6
 	},
 /area/space)
+"JW" = (
+/obj/effect/turf_decal/mining/survival{
+	dir = 8
+	},
+/turf/closed/wall/mineral/titanium/survival/pod,
+/area/space)
 "JY" = (
 /obj/effect/bump_teleporter{
 	id = "nowayout1";
@@ -391,6 +481,10 @@
 "Kg" = (
 /obj/effect/spawner/structure/window/reinforced/indestructable,
 /turf/open/floor/plating,
+/area/space)
+"Kj" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/plating/asteroid/snow/temperatre,
 /area/space)
 "Ld" = (
 /obj/machinery/light/directional/east,
@@ -407,6 +501,11 @@
 "LV" = (
 /obj/machinery/computer/security/wooden_tv,
 /turf/open/floor/iron,
+/area/space)
+"LX" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/survival_pod/glass,
+/turf/open/floor/pod,
 /area/space)
 "ML" = (
 /obj/effect/bump_teleporter{
@@ -465,12 +564,24 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"Sm" = (
+/obj/machinery/smartfridge/survival_pod/preloaded,
+/turf/open/floor/pod,
+/area/space)
 "Sy" = (
 /obj/structure/cable,
 /obj/machinery/power/floodlight{
 	anchored = 1
 	},
 /turf/open/floor/plating/asteroid/snow/temperatre,
+/area/space)
+"ST" = (
+/mob/living/simple_animal/hostile/skeleton/plasmaminer/jackhammer,
+/turf/open/floor/plating/asteroid/snow/temperatre,
+/area/space)
+"SU" = (
+/obj/structure/fans,
+/turf/open/floor/pod,
 /area/space)
 "Tu" = (
 /obj/structure/flora/rock/pile/icy,
@@ -489,6 +600,19 @@
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow/temperatre,
 /area/space)
+"TX" = (
+/obj/effect/turf_decal/mining/survival{
+	dir = 1
+	},
+/turf/closed/wall/mineral/titanium/survival/pod,
+/area/space)
+"UP" = (
+/obj/structure/tubes,
+/obj/structure/chair/comfy/black{
+	dir = 8
+	},
+/turf/open/floor/pod,
+/area/space)
 "UX" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /obj/effect/turf_decal/tile/green{
@@ -504,6 +628,10 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/cobblestone/dungeon,
+/area/space)
+"Wu" = (
+/obj/item/gps/computer,
+/turf/open/floor/pod,
 /area/space)
 "WH" = (
 /obj/machinery/door/airlock{
@@ -23101,8 +23229,8 @@ rb
 rb
 rb
 rb
-rb
-rb
+cN
+BR
 rb
 rb
 rb
@@ -23358,10 +23486,10 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
+BR
+Kj
+sy
+BR
 rb
 rb
 rb
@@ -23614,11 +23742,11 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -23871,11 +23999,11 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
+BR
+Dq
+BR
+BR
+BR
 rb
 rb
 rb
@@ -24126,12 +24254,12 @@ rb
 rb
 rb
 rb
+BR
 rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -24382,10 +24510,10 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -24638,6 +24766,9 @@ rb
 rb
 rb
 rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -24650,11 +24781,8 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
 rb
 rb
 rb
@@ -24895,6 +25023,8 @@ rb
 rb
 rb
 rb
+BR
+BR
 rb
 rb
 rb
@@ -24906,14 +25036,12 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -25152,6 +25280,8 @@ rb
 rb
 rb
 rb
+BR
+BR
 rb
 rb
 rb
@@ -25162,16 +25292,14 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -25410,6 +25538,8 @@ rb
 rb
 rb
 rb
+BR
+BR
 rb
 rb
 rb
@@ -25418,18 +25548,16 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -25668,7 +25796,7 @@ rb
 rb
 rb
 rb
-rb
+BR
 rb
 rb
 rb
@@ -25678,17 +25806,17 @@ rb
 BR
 BR
 BR
+BR
+BR
+BR
+BR
+BR
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -25925,8 +26053,8 @@ rb
 rb
 rb
 rb
-rb
-rb
+BR
+BR
 rb
 rb
 rb
@@ -25936,17 +26064,17 @@ BR
 BR
 BR
 BR
+BR
+BR
 rb
 rb
 rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -26182,10 +26310,10 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
 rb
 BR
 BR
@@ -26202,9 +26330,9 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -26440,9 +26568,9 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
+BR
+BR
+BR
 BR
 BR
 BR
@@ -26460,8 +26588,8 @@ rb
 rb
 rb
 rb
-rb
-rb
+BR
+BR
 rb
 rb
 rb
@@ -26715,11 +26843,11 @@ rb
 rb
 rb
 rb
+BR
 rb
 rb
-rb
-rb
-rb
+BR
+BR
 rb
 rb
 rb
@@ -26971,12 +27099,12 @@ rb
 rb
 rb
 rb
+zz
+BR
+BR
 rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
 rb
 rb
 rb
@@ -27227,13 +27355,13 @@ br
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+xq
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -27410,7 +27538,7 @@ CS
 BR
 ck
 BR
-BR
+Ix
 BR
 BR
 rb
@@ -27485,12 +27613,12 @@ br
 rb
 rb
 rb
+BR
+BR
+BR
 rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
 rb
 rb
 rb
@@ -27726,8 +27854,8 @@ rb
 rb
 rb
 rb
-rb
-rb
+BR
+BR
 BR
 BR
 BR
@@ -27743,12 +27871,12 @@ br
 rb
 rb
 rb
+DO
 rb
 rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -27982,10 +28110,10 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
 BR
 BR
 BR
@@ -28004,8 +28132,8 @@ rb
 rb
 rb
 rb
-rb
-rb
+BR
+BR
 rb
 rb
 rb
@@ -28239,11 +28367,11 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+vX
 BR
 BR
 br
@@ -28261,8 +28389,8 @@ rb
 rb
 rb
 rb
-rb
-rb
+BR
+BR
 rb
 rb
 rb
@@ -28495,14 +28623,14 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+BR
+vX
+vX
+vX
 br
 rb
 rb
@@ -28518,9 +28646,9 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -28752,15 +28880,15 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+vX
+vX
+vX
+vX
+vX
 rb
 rb
 rb
@@ -28775,9 +28903,9 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -29008,17 +29136,17 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+vX
+vX
+vX
+vX
+vX
+vX
+vX
 rb
 rb
 rb
@@ -29032,10 +29160,10 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -29209,7 +29337,7 @@ BR
 BR
 BR
 dt
-AJ
+vr
 dt
 BR
 BR
@@ -29259,24 +29387,24 @@ rb
 rb
 rb
 rb
+nh
+nh
+JW
+nh
+nh
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+vX
+vX
+vX
+vX
+vX
+vX
+vX
+vX
+vX
 rb
 rb
 rb
@@ -29290,9 +29418,9 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -29516,24 +29644,24 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+nh
+SU
+hQ
+oc
+we
+BR
+BR
+ST
+BR
+vX
+vX
+vX
+vX
+vX
+vX
+vX
+vX
+vX
 rb
 rb
 rb
@@ -29547,9 +29675,9 @@ br
 rb
 rb
 rb
-rb
-rb
-rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -29773,24 +29901,24 @@ rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+TX
+Sm
+bW
+bW
+LX
+BR
+BR
+BR
+BR
+vX
+vX
+vX
+vX
+vX
+vX
+vX
+vX
+vX
 rb
 rb
 rb
@@ -29804,9 +29932,9 @@ br
 br
 rb
 rb
-rb
-rb
-rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -30030,23 +30158,23 @@ rb
 rb
 rb
 rb
+nh
+Wu
+gb
+UP
+Dt
+BR
+BR
+BR
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+vX
+vX
+vX
+vX
+vX
+vX
+vX
 rb
 rb
 rb
@@ -30062,9 +30190,9 @@ br
 rb
 rb
 rb
-rb
-rb
-rb
+BR
+BR
+BR
 rb
 rb
 rb
@@ -30287,22 +30415,22 @@ rb
 rb
 rb
 rb
+nh
+nh
+FX
+nh
+nh
 rb
 rb
 rb
 rb
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+vX
+vX
+vX
+vX
+vX
 rb
 rb
 rb
@@ -30318,11 +30446,11 @@ cr
 br
 rb
 rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -30575,12 +30703,12 @@ cr
 br
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -30832,12 +30960,12 @@ cr
 br
 rb
 rb
-rb
-rb
-rb
-rb
-rb
-rb
+BR
+BR
+Af
+BR
+BR
+BR
 rb
 rb
 rb
@@ -31090,10 +31218,10 @@ br
 rb
 rb
 rb
-rb
-rb
-rb
-rb
+BR
+BR
+BR
+BR
 rb
 rb
 rb
@@ -31348,8 +31476,8 @@ rb
 rb
 rb
 rb
-rb
-rb
+BR
+BR
 rb
 rb
 rb
