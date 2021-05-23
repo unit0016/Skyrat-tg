@@ -506,8 +506,9 @@
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
 "de" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/science/storage)
 "df" = (
@@ -539,10 +540,8 @@
 /turf/open/floor/iron,
 /area/cargo/office)
 "dk" = (
-/obj/machinery/portable_atmospherics/scrubber/huge,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/iron,
-/area/science/storage)
+/turf/closed/wall/r_wall,
+/area/command/heads_quarters/rd)
 "dl" = (
 /obj/machinery/door/airlock/security{
 	name = "Detective's Office";
@@ -1388,11 +1387,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"iX" = (
-/obj/structure/table,
-/obj/item/stock_parts/cell/high/plus,
-/turf/open/floor/iron,
-/area/space)
 "jl" = (
 /obj/machinery/computer/piratepad_control/civilian{
 	dir = 1
@@ -1744,6 +1738,8 @@
 /turf/open/floor/iron/dark,
 /area/security/courtroom)
 "lE" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/science/storage)
 "lG" = (
@@ -1808,10 +1804,6 @@
 /obj/machinery/computer/security/wooden_tv,
 /turf/open/floor/iron/dark,
 /area/space)
-"mh" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron,
-/area/science/storage)
 "mi" = (
 /obj/machinery/atmospherics/components/binary/valve,
 /obj/machinery/embedded_controller/radio/airlock_controller/incinerator_toxmix{
@@ -1919,11 +1911,9 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai_upload)
 "na" = (
-/obj/machinery/vending/wardrobe/science_wardrobe,
-/turf/open/floor/iron/white/side{
-	dir = 4
-	},
-/area/space)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/command/heads_quarters/rd)
 "nb" = (
 /turf/closed/wall,
 /area/science/nanite)
@@ -1939,9 +1929,8 @@
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "ni" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
+/obj/machinery/portable_atmospherics/scrubber/huge,
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/science/storage)
 "nj" = (
@@ -2745,6 +2734,15 @@
 	},
 /turf/open/floor/iron,
 /area/cargo/storage)
+"su" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Research Director";
+	req_access_txt = "30"
+	},
+/turf/open/floor/iron/white/side{
+	dir = 4
+	},
+/area/command/heads_quarters/rd)
 "sy" = (
 /obj/structure/chair,
 /turf/open/floor/iron/dark,
@@ -3484,8 +3482,8 @@
 /turf/open/floor/iron/grimy,
 /area/space)
 "wY" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
 	},
 /turf/open/floor/iron,
 /area/science/storage)
@@ -3978,13 +3976,6 @@
 /obj/effect/landmark/start/depsec/science,
 /turf/open/floor/iron/dark,
 /area/security/checkpoint/science)
-"zX" = (
-/obj/structure/chair/office/light{
-	dir = 1
-	},
-/obj/effect/landmark/start/scientist,
-/turf/open/floor/iron,
-/area/space)
 "Ac" = (
 /obj/machinery/computer/warrant{
 	dir = 4
@@ -4413,6 +4404,12 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron/dark,
 /area/security/checkpoint/auxiliary)
+"CF" = (
+/obj/machinery/vending/wardrobe/science_wardrobe,
+/turf/open/floor/iron/white/side{
+	dir = 4
+	},
+/area/space)
 "CN" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -4923,12 +4920,8 @@
 /turf/open/floor/iron/white,
 /area/science/mixing)
 "FW" = (
-/obj/structure/table/glass,
-/obj/item/integrated_circuit_printer{
-	pixel_y = 9
-	},
 /turf/open/floor/iron,
-/area/space)
+/area/command/heads_quarters/rd)
 "FX" = (
 /obj/machinery/biogenerator,
 /obj/effect/turf_decal/tile/green,
@@ -5808,10 +5801,10 @@
 /turf/open/floor/plating,
 /area/cargo/sorting)
 "La" = (
+/obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/science/storage)
 "Lb" = (
@@ -6105,7 +6098,7 @@
 /turf/open/floor/carpet/royalblue,
 /area/command/heads_quarters/captain)
 "MK" = (
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/science/storage)
 "ML" = (
@@ -7686,6 +7679,14 @@
 /turf/open/floor/iron/dark/side{
 	dir = 6
 	},
+/area/space)
+"Wx" = (
+/obj/structure/table/glass,
+/obj/item/integrated_circuit_printer{
+	pixel_y = 9
+	},
+/obj/item/stock_parts/cell/high/plus,
+/turf/open/floor/iron,
 /area/space)
 "Wy" = (
 /obj/effect/turf_decal/siding/wood{
@@ -37206,10 +37207,10 @@ HZ
 HZ
 HZ
 HZ
-id
-id
-id
-id
+HZ
+HZ
+HZ
+HZ
 id
 id
 id
@@ -37460,13 +37461,13 @@ Nl
 Nl
 Nl
 Nl
-Nl
-Nl
+dk
+dk
+dk
+dk
+dk
+dk
 HZ
-id
-id
-id
-id
 id
 id
 id
@@ -37715,15 +37716,15 @@ wq
 wq
 vy
 MK
-mh
 eH
 eH
-Nl
+dk
+FW
+FW
+FW
+FW
+dk
 HZ
-id
-id
-id
-id
 id
 id
 id
@@ -37972,14 +37973,14 @@ wq
 on
 vy
 lE
-de
 eH
 eH
-Nl
-HZ
-HZ
-HZ
-HZ
+dk
+FW
+FW
+FW
+FW
+dk
 HZ
 HZ
 HZ
@@ -38228,15 +38229,15 @@ hs
 zI
 jq
 cH
-MK
-de
+lE
 eH
 eH
-Nl
-oC
-oC
-oC
-oC
+dk
+FW
+FW
+FW
+FW
+dk
 oC
 oC
 oC
@@ -38485,17 +38486,17 @@ hs
 ra
 RR
 cH
-MK
+de
 wY
 ni
 dk
-Nl
-Yg
 FW
-EP
-iX
-EP
 FW
+FW
+FW
+na
+EP
+Wx
 Jp
 nb
 Fs
@@ -38744,13 +38745,13 @@ wH
 uh
 xg
 La
-mh
+ni
 dk
-Nl
-It
-zX
-vo
-vo
+FW
+FW
+FW
+FW
+na
 vo
 YI
 It
@@ -39002,12 +39003,12 @@ hs
 pQ
 hs
 hs
-hs
-hs
-Jp
-vo
-vo
-vo
+dk
+dk
+FW
+FW
+FW
+na
 vo
 vo
 Yg
@@ -39260,14 +39261,14 @@ BX
 Lz
 YH
 eo
-hs
+dk
 na
+su
+na
+dk
 LE
 LE
-LE
-LE
-LE
-LE
+CF
 nb
 JY
 JY
