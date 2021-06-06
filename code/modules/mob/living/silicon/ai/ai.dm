@@ -102,7 +102,7 @@
 
 	var/datum/robot_control/robot_control
 
-	var/vox_type = VOX_NORMAL //SKYRAT EDIT ADDITION
+
 
 /mob/living/silicon/ai/Initialize(mapload, datum/ai_laws/L, mob/target_ai)
 	. = ..()
@@ -418,7 +418,8 @@
 		ai_alerts()
 #ifdef AI_VOX
 	if(href_list["say_word"])
-		play_vox_word(href_list["say_word"], null, src)
+		play_vox_word(href_list["say_word"], null, src, vox_type) //SKYRAT EDIT CHANGE
+		vox_word_string += "[href_list["say_word"]] " //SKYRAT EDIT ADDITION
 		return
 #endif
 	if(href_list["show_paper"])
@@ -547,7 +548,7 @@
 	if (cameras)
 		if (cam?.can_use())
 			queueAlarm("--- [class] alarm detected in [home.name]! (<A HREF=?src=[REF(src)];switchcamera=[REF(cam)]>[cam.c_tag]</A>)", class)
-		else if (our_cams?.len)
+		else if (our_cams && our_cams.len)
 			var/foo = 0
 			var/dat2 = ""
 			for (var/obj/machinery/camera/I in our_cams)
@@ -1006,6 +1007,7 @@
 		Remove(owner) //If the last shell is blown, destroy it.
 
 /mob/living/silicon/ai/proc/disconnect_shell()
+	SIGNAL_HANDLER
 	if(deployed_shell) //Forcibly call back AI in event of things such as damage, EMP or power loss.
 		to_chat(src, "<span class='danger'>Your remote connection has been reset!</span>")
 		deployed_shell.undeploy()

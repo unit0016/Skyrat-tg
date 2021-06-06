@@ -1143,7 +1143,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				continue
 			ban_details = i
 			break //we only want to get the most recent ban's details
-		if(ban_details?.len)
+		if(ban_details && ban_details.len)
 			var/expires = "This is a permanent ban."
 			if(ban_details["expiration_time"])
 				expires = " The ban is for [DisplayTimeText(text2num(ban_details["duration"]) MINUTES)] and expires on [ban_details["expiration_time"]] (server time)."
@@ -1922,7 +1922,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 		organ_eyes.old_eye_color = eye_color
 	character.hair_color = hair_color
 	character.facial_hair_color = facial_hair_color
-
 	character.skin_tone = skin_tone
 	character.hairstyle = hairstyle
 	character.facial_hairstyle = facial_hairstyle
