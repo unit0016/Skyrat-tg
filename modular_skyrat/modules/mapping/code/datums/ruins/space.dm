@@ -8,7 +8,7 @@
 	id = "forgottenship"
 	description = "Cybersun would like to remind it's employees that any battle cruiser will be apropriately maintained, as will it's crew."
 	suffix = "forgottenship_skyrat.dmm"
-	always_place = TRUE
+	unpickable = TRUE //Placement handled by Master ruin
 
 /datum/map_template/ruin/space/skyrat/oldstation
 	id = "oldstation"
@@ -57,13 +57,6 @@
 	suffix = "dangerous_research.dmm"
 	name = "Nanotrasen Research Facility"
 	description = "A small, recently abandoned research outpost, perhaps there's time to see what went wrong before Nanotrasen wipes it from their records?"
-
-/datum/map_template/ruin/space/skyrat/normal_space_tile
-	id = "normal_space_tile"
-	suffix = "completelynormalspacetile.dmm"
-	name = "Completely Normal Space Tile"
-	description = "A completely normal space tile, nothing strange with it at all."
-	cost = 0 //Wasting space budget on this meme of a ruin is stupid, sorry.
 
 /datum/map_template/ruin/space/skyrat/outoftime
 	id = "outoftime"
