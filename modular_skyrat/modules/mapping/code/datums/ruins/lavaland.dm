@@ -12,13 +12,3 @@
 	allow_duplicates = FALSE
 	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/skyrat/syndicate_base)
 	always_place = TRUE
-
-/datum/map_template/ruin/lavaland/skyrat/rogue
-	name = "Rogue's Arena"
-	id = "roguearena"
-	description = "LOOK AT YOU HACKER."
-	suffix = "lavaland_surface_rogue.dmm"
-	cost = 0
-	always_place = TRUE
-	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/skyrat/rogue)
-	allow_duplicates = FALSE

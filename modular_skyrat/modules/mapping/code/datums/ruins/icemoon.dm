@@ -19,13 +19,3 @@
 	description = "The Iceminer arena."
 	suffix = "icemoon_underground_mining_site_skyrat.dmm"
 	always_place = TRUE
-
-/datum/map_template/ruin/icemoon/underground/skyrat/rogue
-	name = "Rogue's Arena"
-	id = "roguearena"
-	description = "LOOK AT YOU HACKER."
-	suffix = "icemoon_underground_rogue.dmm"
-	cost = 0
-	always_place = TRUE
-	never_spawn_with = list(/datum/map_template/ruin/lavaland/skyrat/rogue)
-	allow_duplicates = FALSE
