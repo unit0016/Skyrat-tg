@@ -9,7 +9,10 @@
 	tool_behaviour = NONE
 	toolspeed = 0.2
 	power_use_amount = POWER_CELL_USE_LOW
+	// We don't use fuel
+	change_icons = FALSE
 	var/cell_override = /obj/item/stock_parts/cell/high
+	var/powered = FALSE
 	max_fuel = 20
 
 /obj/item/weldingtool/electric/ComponentInitialize()
@@ -18,17 +21,17 @@
 
 /obj/item/weldingtool/electric/attack_self(mob/user, modifiers)
 	. = ..()
-	if(!welding)
+	if(!powered)
 		if(!(item_use_power(power_use_amount, user, TRUE) & COMPONENT_POWER_SUCCESS))
 			return
-	welding = !welding
+	powered = !powered
 	playsound(src, 'sound/effects/sparks4.ogg', 100, TRUE)
-	if(welding)
+	if(powered)
 		to_chat(user, "<span class='notice'>You turn [src] on.</span>")
 		switched_on()
-	else
-		to_chat(user, "<span class='notice'>You turn [src] off.</span>")
-		switched_off()
+		return
+	to_chat(user, "<span class='notice'>You turn [src] off.</span>")
+	switched_off()
 
 /obj/item/weldingtool/electric/switched_on(mob/user)
 	welding = TRUE
@@ -37,22 +40,22 @@
 	force = 15
 	damtype = BURN
 	hitsound = 'sound/items/welder.ogg'
-	set_light_on(welding)
+	set_light_on(powered)
 	update_appearance()
 	START_PROCESSING(SSobj, src)
 
 /obj/item/weldingtool/electric/switched_off(mob/user)
-	welding = FALSE
+	powered = FALSE
 	light_on = FALSE
 	force = initial(force)
 	damtype = BRUTE
-	set_light_on(welding)
+	set_light_on(powered)
 	tool_behaviour = NONE
 	update_appearance()
 	STOP_PROCESSING(SSobj, src)
 
 /obj/item/weldingtool/electric/process(delta_time)
-	if(!welding)
+	if(!powered)
 		switched_off()
 		return
 	if(!(item_use_power(power_use_amount) & COMPONENT_POWER_SUCCESS))
@@ -66,23 +69,22 @@
 
 // This is what uses fuel in the parent. We override it here to not use fuel
 /obj/item/weldingtool/electric/use(used = 0)
-	if(isOn())
-		return TRUE
-	else
-		return FALSE
+	return isOn()
 
 // This is what starts fires. Overriding it stops it starting fires
 /obj/item/weldingtool/electric/handle_fuel_and_temps(used = 0, mob/living/user)
 	return
 
-/obj/item/weldingtool/electric/update_overlays()
-	. = ..()
-	if(welding)
-		. += mutable_appearance('modular_skyrat/modules/aesthetics/tools/tools.dmi', "elwelder_on")
-
 /obj/item/weldingtool/electric/examine()
 	. = ..()
-	. += "[src] is currently [welding ? "powered" : "unpowered"]."
+	. += "[src] is currently [powered ? "powered" : "unpowered"]."
+
+/obj/item/weldingtool/electric/update_icon_state()
+	if(powered)
+		inhand_icon_state = "[initial(inhand_icon_state)]1"
+	else
+		inhand_icon_state = "[initial(inhand_icon_state)]"
+	return ..()
 
 /datum/design/exwelder
 	name = "Electrical Welding Tool"
