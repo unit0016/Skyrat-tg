@@ -53,3 +53,6 @@ map nssjourney
 	minplayers 25
 	votable
 endmap
+
+map tunari
+endmap

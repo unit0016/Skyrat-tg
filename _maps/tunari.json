@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"map_name": "Tunari",
+	"map_path": "map_files/Tunari",
+	"map_file": "tunari.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"shuttles": {
+		"emergency": "emergency_delta",
+		"ferry": "ferry_fancy",
+		"cargo": "cargo_delta",
+		"whiteship": "whiteship_delta"
+	},
+	"traits": [
+		{
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/chasm/jungle"
+		}
+	],
+	"job_changes": {
+		"cook": {
+			"additional_cqc_areas": ["/area/service/bar/atrium"]
+		}
+	}
+}

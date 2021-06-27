@@ -4236,6 +4236,7 @@
 #include "modular_skyrat\modules\mapping\code\datums\ruins\icemoon.dm"
 #include "modular_skyrat\modules\mapping\code\datums\ruins\lavaland.dm"
 #include "modular_skyrat\modules\mapping\code\datums\ruins\space.dm"
+#include "modular_skyrat\modules\mapping\code\game\area\areas\jungle.dm"
 #include "modular_skyrat\modules\mapping\code\game\area\areas\shuttles.dm"
 #include "modular_skyrat\modules\mapping\code\game\area\areas\ruins\space.dm"
 #include "modular_skyrat\modules\mapping\code\game\objects\effects\decals\vgdecals.dm"
