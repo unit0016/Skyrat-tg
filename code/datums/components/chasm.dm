@@ -95,6 +95,17 @@
 		return
 	falling_atoms[AM] = (falling_atoms[AM] || 0) + 1
 	var/turf/T = target_turf
+//SKYRAT EDIT ADDITION//
+	var/list/spawn_locs = null
+	for(var/obj/effect/landmark/chasmfall/C in GLOB.landmarks_list) //The great cave offensive.
+		spawn_locs += (C.loc)
+	if(!spawn_locs.len)
+		message_admins("ALERT; [AM] Entered a chasm, but no chasmfall landmarks exist! Sending to carpspawn...")
+		for(var/obj/effect/landmark/carpspawn/C in GLOB.landmarks_list)
+			spawn_locs += (C.loc)
+		if(!spawn_locs.len)
+			message_admins("RED ALERT! [AM] Entered a chasm, but no chasmfall or carp spawn landmarks exist! Yell at a mapper!")
+//SKYRAT EDIT END//
 
 	if(T)
 		// send to the turf below
@@ -119,6 +130,7 @@
 		var/oldcolor = AM.color
 		var/oldalpha = AM.alpha
 		animate(AM, transform = matrix() - matrix(), alpha = 0, color = rgb(0, 0, 0), time = 10)
+/* //SKYRAT EDIT REMOVAL START//
 		for(var/i in 1 to 5)
 			//Make sure the item is still there after our sleep
 			if(!AM || QDELETED(AM))
@@ -133,13 +145,16 @@
 		if(iscyborg(AM))
 			var/mob/living/silicon/robot/S = AM
 			qdel(S.mmi)
-
 		falling_atoms -= AM
 		qdel(AM)
 		if(AM && !QDELETED(AM)) //It's indestructible
 			var/atom/parent = src.parent
 			parent.visible_message(span_boldwarning("[parent] spits out [AM]!"))
-			AM.alpha = oldalpha
-			AM.color = oldcolor
-			AM.transform = oldtransform
-			AM.throw_at(get_edge_target_turf(parent,pick(GLOB.alldirs)),rand(1, 10),rand(1, 10))
+*/ //Skyrat Edit Removal End//
+		var/turf/wherewedropping = get_turf(pick(spawn_locs))
+		wherewedropping.visible_message(span_boldwarning("[AM] suddenly appears in a flash of light!"))
+		do_teleport(AM, wherewedropping, channel = TELEPORT_CHANNEL_QUANTUM)
+		AM.alpha = oldalpha
+		AM.color = oldcolor
+		AM.transform = oldtransform
+		falling_atoms -= AM
