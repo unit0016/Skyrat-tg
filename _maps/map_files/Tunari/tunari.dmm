@@ -39,6 +39,13 @@
 /obj/structure/railing,
 /turf/open/floor/stone,
 /area/jungle/surface/outdoors)
+"bL" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark/telecomms,
+/area/science/server)
 "bQ" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/iron/white/smooth_corner{
@@ -254,6 +261,13 @@
 	dir = 1
 	},
 /area/command/heads_quarters/cmo)
+"fq" = (
+/obj/machinery/light/directional/west,
+/obj/structure/table,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/iron/large,
+/area/science/server)
 "fv" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron/large,
@@ -416,6 +430,10 @@
 	},
 /turf/open/floor/plating,
 /area/science/research)
+"iR" = (
+/obj/machinery/computer/rdservercontrol,
+/turf/open/floor/iron/large,
+/area/science/server)
 "iT" = (
 /obj/structure/table/wood,
 /obj/item/toy/cards/deck/kotahi,
@@ -445,6 +463,13 @@
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/medical/storage)
+"jk" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/obj/machinery/rnd/server,
+/turf/open/floor/iron/dark/telecomms,
+/area/science/server)
 "jl" = (
 /turf/open/floor/iron/dark/textured_large,
 /area/medical/pharmacy)
@@ -665,6 +690,9 @@
 /obj/machinery/ecto_sniffer{
 	pixel_x = -6;
 	pixel_y = 6
+	},
+/obj/machinery/posialert{
+	pixel_x = -32
 	},
 /turf/open/floor/iron/large,
 /area/science/robotics/lab)
@@ -994,6 +1022,11 @@
 	},
 /turf/open/floor/wood,
 /area/jungle/surface/outdoors)
+"se" = (
+/obj/structure/table,
+/obj/item/folder/white,
+/turf/open/floor/iron/large,
+/area/science/server)
 "sk" = (
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 4
@@ -1002,6 +1035,12 @@
 "sA" = (
 /turf/closed/wall,
 /area/cargo/miningoffice)
+"sE" = (
+/obj/structure/table,
+/obj/item/nanite_scanner,
+/obj/item/nanite_remote,
+/turf/open/floor/iron/dark/textured_large,
+/area/science/nanite)
 "sH" = (
 /obj/structure/bed/dogbed,
 /turf/open/floor/carpet,
@@ -1022,6 +1061,10 @@
 "sZ" = (
 /turf/open/floor/iron/large,
 /area/science/research)
+"ti" = (
+/obj/machinery/nanite_program_hub,
+/turf/open/floor/iron/dark/smooth_large,
+/area/science/nanite)
 "tj" = (
 /obj/effect/turf_decal/tile/blue/half,
 /turf/open/floor/iron/textured_half,
@@ -1059,6 +1102,13 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/medical/surgery/room_b)
+"tv" = (
+/obj/machinery/door/airlock/command{
+	name = "Server Room";
+	req_access_txt = "30"
+	},
+/turf/open/floor/iron/textured_large,
+/area/science/server)
 "tT" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/carpet/black,
@@ -1069,6 +1119,13 @@
 	},
 /turf/open/floor/wood,
 /area/jungle/surface/outdoors)
+"uj" = (
+/obj/structure/table,
+/obj/item/storage/box/disks_nanite{
+	pixel_y = 6
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/science/nanite)
 "ul" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 4
@@ -1147,6 +1204,10 @@
 "vx" = (
 /turf/open/floor/plating/grass/jungle/planet,
 /area/jungle/surface/outdoors)
+"vz" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/science/server)
 "vB" = (
 /obj/structure/bodycontainer/morgue,
 /turf/open/floor/iron/dark/smooth_large,
@@ -1324,6 +1385,13 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/science/robotics/mechbay)
+"yn" = (
+/obj/machinery/door/airlock/command{
+	name = "Server Room";
+	req_access_txt = "30"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/science/server)
 "yo" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -1368,6 +1436,10 @@
 /obj/machinery/mechpad,
 /turf/open/floor/iron/large,
 /area/science/robotics/mechbay)
+"yM" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/large,
+/area/science/research)
 "yR" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay Waiting Room"
@@ -1414,6 +1486,13 @@
 "zz" = (
 /turf/open/floor/plating/dirt/jungle,
 /area/jungle/surface/outdoors)
+"zA" = (
+/obj/machinery/door/airlock/research{
+	name = "Circuitry Lab";
+	req_access_txt = "47"
+	},
+/turf/open/floor/iron/textured_large,
+/area/science/research)
 "zJ" = (
 /obj/structure/flora/tree/jungle/small,
 /turf/open/floor/plating/grass/jungle,
@@ -1480,6 +1559,9 @@
 	dir = 4
 	},
 /area/security/checkpoint/supply)
+"AM" = (
+/turf/closed/wall,
+/area/science/nanite)
 "AO" = (
 /obj/machinery/door/airlock/wood{
 	id_tag = "Dorm4";
@@ -1615,6 +1697,12 @@
 	},
 /turf/open/floor/iron/large,
 /area/science/robotics/lab)
+"Cv" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/science/server)
 "CA" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/iron/large,
@@ -1674,6 +1762,10 @@
 "DG" = (
 /turf/open/floor/stone,
 /area/jungle/surface/outdoors)
+"DL" = (
+/obj/machinery/nanite_chamber,
+/turf/open/floor/iron/dark/smooth_large,
+/area/science/nanite)
 "DM" = (
 /obj/structure/table/reinforced,
 /obj/item/gps/mining,
@@ -1683,6 +1775,9 @@
 /obj/structure/closet/secure_closet/medical3,
 /turf/open/floor/iron/white/smooth_large,
 /area/medical/storage)
+"DS" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/science/nanite)
 "DU" = (
 /turf/open/floor/iron/large,
 /area/science/robotics/mechbay)
@@ -1982,6 +2077,16 @@
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/medical/medbay)
+"IS" = (
+/obj/machinery/requests_console{
+	department = "Science";
+	departmentType = 2;
+	name = "Science Requests Console";
+	pixel_x = 30;
+	receive_ore_updates = 1
+	},
+/turf/open/floor/iron/large,
+/area/science/research)
 "Je" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 4
@@ -2027,6 +2132,10 @@
 	dir = 1
 	},
 /area/commons/lounge)
+"JQ" = (
+/obj/machinery/holopad,
+/turf/open/floor/wood,
+/area/medical/medbay/lobby)
 "JU" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
@@ -2126,6 +2235,10 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/carpet/green,
 /area/commons/dorms)
+"LU" = (
+/obj/structure/table,
+/turf/open/floor/iron/large,
+/area/science/server)
 "Md" = (
 /obj/structure/table,
 /obj/item/reagent_containers/spray/cleaner,
@@ -2157,6 +2270,9 @@
 	},
 /turf/open/floor/iron/white/smooth_half,
 /area/medical/surgery)
+"ML" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/science/nanite)
 "MO" = (
 /obj/structure/flora/junglebush/c,
 /turf/open/floor/plating/grass/jungle,
@@ -2172,6 +2288,10 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/medical/morgue)
+"Nd" = (
+/obj/machinery/computer/rdconsole,
+/turf/open/floor/iron/large,
+/area/science/server)
 "Nh" = (
 /obj/machinery/aug_manipulator,
 /turf/open/floor/iron/large,
@@ -2262,12 +2382,19 @@
 	},
 /turf/open/floor/iron/large,
 /area/cargo/office)
+"Pn" = (
+/turf/open/floor/iron/large,
+/area/science/server)
 "Pp" = (
 /obj/effect/turf_decal/vg_decals/department/med{
 	dir = 4
 	},
 /turf/open/floor/stone,
 /area/jungle/surface/outdoors)
+"Ps" = (
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/iron/textured_large,
+/area/science/robotics/mechbay)
 "Px" = (
 /obj/machinery/door/airlock/research{
 	name = "Mech Bay";
@@ -2281,6 +2408,10 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/medical/surgery)
+"PC" = (
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/iron/textured_large,
+/area/science/robotics/mechbay)
 "PE" = (
 /obj/structure/flora/tree/jungle,
 /turf/open/floor/plating/grass/jungle,
@@ -2537,6 +2668,11 @@
 "Ub" = (
 /turf/open/floor/wood/large,
 /area/commons/dorms)
+"Ul" = (
+/obj/machinery/computer/nanite_cloud_controller,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/science/nanite)
 "Uo" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -2563,6 +2699,12 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/cargo/office)
+"UE" = (
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating{
+	initial_gas_mix = "n2=100;TEMP=80"
+	},
+/area/science/server)
 "UF" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin{
@@ -2674,6 +2816,12 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/jungle/surface/outdoors)
+"Wa" = (
+/obj/machinery/computer/nanite_chamber_control{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/science/nanite)
 "Wd" = (
 /turf/closed/wall/mineral/wood,
 /area/commons/dorms)
@@ -2796,6 +2944,10 @@
 	},
 /turf/open/floor/wood,
 /area/cargo/qm)
+"Yc" = (
+/obj/machinery/holopad,
+/turf/open/floor/iron/large,
+/area/commons/lounge)
 "Ye" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay Desk";
@@ -2803,10 +2955,18 @@
 	},
 /turf/open/floor/iron/white/textured_large,
 /area/medical/office)
+"Yh" = (
+/obj/machinery/nanite_programmer,
+/turf/open/floor/iron/dark/smooth_large,
+/area/science/nanite)
 "Yj" = (
 /obj/machinery/smartfridge/organ,
 /turf/closed/wall,
 /area/medical/surgery)
+"Yn" = (
+/obj/machinery/holopad,
+/turf/open/floor/iron/large,
+/area/science/robotics/lab)
 "Yq" = (
 /obj/machinery/modular_computer/console/preset/id,
 /turf/open/floor/iron/textured_edge,
@@ -2826,6 +2986,9 @@
 /obj/effect/loot_site_spawner,
 /turf/open/floor/plating/grass/jungle,
 /area/jungle/surface/outdoors)
+"YA" = (
+/turf/closed/wall,
+/area/science/server)
 "YO" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /turf/open/floor/iron/textured_large,
@@ -24914,11 +25077,11 @@ Xk
 Xk
 Xk
 Xk
-ca
-ca
-ca
-ca
-ca
+YA
+YA
+YA
+YA
+YA
 ca
 sZ
 sZ
@@ -25171,18 +25334,18 @@ Xk
 Xk
 Xk
 Xk
+YA
+iR
+fq
+LU
+YA
+sZ
+sZ
+sZ
+sZ
+sZ
+sZ
 ca
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
 sZ
 sZ
 sZ
@@ -25428,18 +25591,18 @@ Xk
 Xk
 Xk
 Xk
-ca
+YA
+Nd
+Cv
+Pn
+tv
 sZ
 sZ
 sZ
 sZ
 sZ
 sZ
-sZ
-sZ
-sZ
-sZ
-sZ
+zA
 sZ
 sZ
 sZ
@@ -25685,18 +25848,18 @@ Xk
 Xk
 Xk
 Xk
+YA
+se
+Pn
+Pn
+YA
+sZ
+sZ
+sZ
+sZ
+sZ
+sZ
 ca
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
 sZ
 sZ
 sZ
@@ -25942,18 +26105,18 @@ Xk
 Xk
 Xk
 Xk
+YA
+vz
+yn
+vz
+YA
+sZ
+sZ
+sZ
+sZ
+sZ
+sZ
 ca
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
 sZ
 sZ
 sZ
@@ -26199,14 +26362,14 @@ Xk
 Xk
 Xk
 Xk
-ca
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
-sZ
+YA
+UE
+UE
+UE
+YA
+dj
+dj
+dj
 ca
 ca
 ca
@@ -26456,11 +26619,11 @@ Xk
 Xk
 Xk
 Xk
-ca
-sZ
-sZ
-sZ
-sZ
+YA
+jk
+bL
+jk
+YA
 sZ
 sZ
 sZ
@@ -26713,11 +26876,11 @@ Xk
 Xk
 Xk
 Xk
-ca
-ca
-sZ
-sZ
-sZ
+YA
+YA
+YA
+YA
+YA
 sZ
 sZ
 sZ
@@ -26971,10 +27134,10 @@ Xk
 Xk
 Xk
 Xk
-ca
-sZ
-sZ
-sZ
+AM
+ti
+Yh
+uj
 sZ
 sZ
 sZ
@@ -27228,10 +27391,10 @@ Xk
 Xk
 Xk
 Xk
-ca
-sZ
-sZ
-sZ
+AM
+DS
+DS
+ML
 sZ
 sZ
 sZ
@@ -27485,13 +27648,13 @@ Xk
 Xk
 Xk
 Xk
-ca
+AM
+Ul
+DS
+ML
 sZ
 sZ
-sZ
-sZ
-sZ
-sZ
+yM
 ca
 sZ
 TL
@@ -27500,7 +27663,7 @@ fv
 zV
 cj
 cj
-cj
+Yc
 cj
 cj
 Br
@@ -27742,10 +27905,10 @@ Xk
 Xk
 Xk
 Xk
-ca
-sZ
-sZ
-sZ
+AM
+DS
+DS
+ML
 sZ
 sZ
 sZ
@@ -27999,10 +28162,10 @@ Xk
 Xk
 Xk
 Xk
-ca
-sZ
-sZ
-sZ
+AM
+Wa
+DL
+sE
 sZ
 sZ
 sZ
@@ -28776,7 +28939,7 @@ DU
 Px
 sZ
 sZ
-sZ
+IS
 dj
 sZ
 sZ
@@ -29028,7 +29191,7 @@ MG
 hZ
 an
 FG
-If
+Ps
 DU
 Vs
 Vs
@@ -29047,7 +29210,7 @@ Ku
 oR
 oR
 ZD
-bi
+JQ
 bi
 ZS
 jP
@@ -29537,7 +29700,7 @@ Xk
 an
 CA
 vN
-vN
+Yn
 vN
 vN
 UX
@@ -29802,7 +29965,7 @@ DU
 DU
 If
 DU
-If
+PC
 If
 mg
 Vs
@@ -30571,10 +30734,10 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
+vO
 vO
 vO
 vO
@@ -30829,9 +30992,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+dk
+vO
+vO
 vO
 gn
 wh
@@ -31086,9 +31249,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
 vO
 af
 wQ
@@ -31343,9 +31506,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+dk
 vO
 iD
 wQ
@@ -31600,9 +31763,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
 vO
 iD
 wQ
@@ -31857,9 +32020,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
 vO
 iD
 wQ
@@ -32114,9 +32277,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+dk
+vO
 vO
 iD
 wQ
@@ -32371,9 +32534,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
 vO
 iD
 wQ
@@ -32628,9 +32791,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
 vO
 iD
 wQ
@@ -32885,9 +33048,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+dk
+vO
 vO
 iD
 wQ
@@ -33142,9 +33305,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
 OW
 iD
 wQ
@@ -33399,9 +33562,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
 OW
 iD
 wQ
@@ -33656,9 +33819,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
 OW
 iD
 wQ
@@ -33913,9 +34076,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+dk
 OW
 iD
 wQ
@@ -34170,9 +34333,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+vO
+vO
+vO
 vO
 ls
 wQ
@@ -34427,9 +34590,9 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+dk
+vO
+vO
 vO
 gn
 AY
