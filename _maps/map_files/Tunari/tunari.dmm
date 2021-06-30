@@ -736,6 +736,9 @@
 "gO" = (
 /turf/open/floor/iron/textured_large,
 /area/commons/lounge)
+"gS" = (
+/turf/open/floor/iron/dark/textured,
+/area/security/brig)
 "gT" = (
 /obj/structure/chair{
 	dir = 8
@@ -849,6 +852,16 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/command/bridge)
+"hS" = (
+/obj/effect/turf_decal/tile/blue/darkblue,
+/obj/effect/turf_decal/tile/blue/darkblue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/security/brig)
 "hZ" = (
 /obj/structure/table/optable,
 /obj/effect/turf_decal/tile/purple,
@@ -910,6 +923,9 @@
 	},
 /turf/open/floor/iron/large,
 /area/science/research)
+"iP" = (
+/turf/closed/wall/r_wall,
+/area/security/brig)
 "iQ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/reinforced,
@@ -1083,6 +1099,12 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"jX" = (
+/obj/effect/turf_decal/tile/blue/anticorner,
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 1
+	},
+/area/security/brig)
 "jY" = (
 /obj/structure/table/reinforced,
 /obj/structure/mirror/directional/west,
@@ -1144,6 +1166,11 @@
 /obj/effect/landmark/start/cargo_technician,
 /turf/open/floor/iron/large,
 /area/cargo/storage)
+"ky" = (
+/obj/machinery/door/airlock/security/glass,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/iron/dark/textured_large,
+/area/security/brig)
 "kC" = (
 /obj/structure/table/reinforced,
 /obj/item/exodrone{
@@ -1384,6 +1411,15 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/white/smooth_large,
 /area/medical/medbay)
+"mo" = (
+/obj/effect/turf_decal/tile/blue/half{
+	color = "#486091";
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 4
+	},
+/area/security/brig)
 "mz" = (
 /obj/machinery/suit_storage_unit/captain,
 /turf/open/floor/wood,
@@ -1586,6 +1622,14 @@
 	},
 /turf/open/floor/iron,
 /area/science/mixing)
+"oD" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 8
+	},
+/area/security/brig)
 "oH" = (
 /obj/structure/table/glass,
 /obj/structure/window/reinforced/spawner/west,
@@ -1666,12 +1710,27 @@
 	},
 /turf/open/floor/iron/white/textured_large,
 /area/medical/storage)
+"pg" = (
+/obj/effect/turf_decal/tile/blue/darkblue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/security/brig)
 "pl" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
 /turf/open/floor/iron/white/smooth_half,
 /area/medical/surgery/room_b)
+"pm" = (
+/obj/machinery/door/firedoor,
+/obj/structure/table/reinforced,
+/turf/open/floor/plating,
+/area/security/brig)
 "pn" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/iron/textured_large,
@@ -1830,6 +1889,15 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"ri" = (
+/obj/effect/turf_decal/tile/blue/anticorner{
+	dir = 8
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 4
+	},
+/area/security/brig)
 "rl" = (
 /obj/machinery/button/door/directional/north{
 	id = "Dorm1";
@@ -1855,6 +1923,15 @@
 "rs" = (
 /turf/open/floor/wood,
 /area/cargo/qm)
+"rt" = (
+/obj/effect/turf_decal/tile/blue/darkblue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_edge,
+/area/security/brig)
 "rw" = (
 /obj/machinery/button/door/directional/north{
 	id = "Dorm5";
@@ -2024,6 +2101,16 @@
 "sP" = (
 /turf/closed/wall/r_wall,
 /area/science/genetics)
+"sS" = (
+/obj/effect/turf_decal/tile/blue/darkblue,
+/obj/effect/turf_decal/tile/blue/darkblue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/security/brig)
 "sZ" = (
 /turf/open/floor/iron/large,
 /area/science/research)
@@ -2148,6 +2235,14 @@
 "uv" = (
 /turf/closed/wall/mineral/wood,
 /area/commons/dorms)
+"uy" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 4
+	},
+/area/security/brig)
 "uA" = (
 /obj/machinery/door/airlock/command{
 	name = "HoP Line";
@@ -2615,6 +2710,18 @@
 	},
 /turf/open/floor/plating,
 /area/science/test_area)
+"xX" = (
+/obj/effect/turf_decal/tile/blue/darkblue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/security/brig)
 "xY" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 8;
@@ -2802,6 +2909,15 @@
 	initial_gas_mix = "n2=100;TEMP=80"
 	},
 /area/science/research)
+"zB" = (
+/obj/effect/turf_decal/tile/blue/anticorner{
+	color = "#486091";
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 8
+	},
+/area/security/brig)
 "zJ" = (
 /obj/structure/flora/tree/jungle/small,
 /turf/open/floor/plating/grass/jungle,
@@ -3122,6 +3238,15 @@
 "Cj" = (
 /turf/closed/wall,
 /area/medical/storage)
+"Ck" = (
+/obj/effect/turf_decal/tile/blue/darkblue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 1
+	},
+/area/security/brig)
 "Cl" = (
 /obj/structure/bed,
 /obj/item/bedsheet/dorms,
@@ -3201,6 +3326,13 @@
 /obj/structure/flora/biolumi/lamp,
 /turf/open/floor/plating/grass/jungle,
 /area/jungle/surface/outdoors)
+"CX" = (
+/obj/machinery/door/airlock/security/glass,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/security/brig)
 "CZ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -3268,6 +3400,10 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/cargo/office)
+"DE" = (
+/obj/effect/turf_decal/tile/blue/half,
+/turf/open/floor/iron/dark/textured_edge,
+/area/security/brig)
 "DG" = (
 /turf/open/floor/stone,
 /area/jungle/surface/outdoors)
@@ -3646,6 +3782,15 @@
 /obj/structure/flora/biolumi/mine,
 /turf/open/floor/plating/grass/jungle,
 /area/jungle/surface/outdoors)
+"Gs" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/security/brig)
 "Gz" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
@@ -3798,6 +3943,14 @@
 	},
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"HN" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 1
+	},
+/area/security/brig)
 "HS" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/brown/full,
@@ -4610,6 +4763,15 @@
 	},
 /turf/open/floor/plating,
 /area/science/test_area)
+"Qw" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/security/brig)
 "Qz" = (
 /obj/effect/turf_decal/tile/blue/half,
 /turf/open/floor/iron/half,
@@ -4714,6 +4876,15 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/large,
 /area/science/research)
+"RH" = (
+/obj/effect/turf_decal/tile/blue/half{
+	color = "#486091";
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 8
+	},
+/area/security/brig)
 "RJ" = (
 /obj/machinery/computer/security{
 	dir = 1
@@ -4838,6 +5009,12 @@
 	},
 /turf/open/floor/wood/large,
 /area/commons/dorms)
+"SN" = (
+/obj/effect/turf_decal/tile/blue/half{
+	color = "#486091"
+	},
+/turf/open/floor/iron/dark/textured_edge,
+/area/security/brig)
 "SQ" = (
 /obj/machinery/door/airlock/wood{
 	id_tag = "Dorm4";
@@ -5223,6 +5400,14 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/command/heads_quarters/cmo)
+"WW" = (
+/obj/effect/turf_decal/tile/blue/anticorner{
+	color = "#486091";
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/iron/dark/textured_corner,
+/area/security/brig)
 "WX" = (
 /obj/structure/table/glass,
 /obj/item/cartridge/medical{
@@ -5239,6 +5424,13 @@
 	dir = 4
 	},
 /area/command/heads_quarters/cmo)
+"WY" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Brig";
+	req_access_txt = "63"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/security/brig)
 "Xe" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
@@ -5439,6 +5631,15 @@
 	},
 /turf/open/floor/iron,
 /area/science/mixing)
+"YL" = (
+/obj/effect/turf_decal/tile/blue/half{
+	color = "#486091";
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 1
+	},
+/area/security/brig)
 "YO" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /turf/open/floor/iron/textured_large,
@@ -5496,6 +5697,10 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/large,
 /area/science/robotics/lab)
+"Zb" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/security/brig)
 "Zf" = (
 /obj/structure/sign/poster/official/random{
 	pixel_y = -32
@@ -36557,12 +36762,12 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
+iP
+iP
+iP
+iP
+iP
+iP
 Xk
 Xk
 Xk
@@ -36814,12 +37019,12 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
+iP
+WW
+oD
+RH
+ri
+iP
 Xk
 Xk
 Xk
@@ -37071,22 +37276,22 @@ Xk
 Xk
 Xk
 Xk
+iP
+HN
+gS
+gS
+SN
+iP
+Zb
+Zb
+iP
 Xk
 Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
+vO
+vO
 DG
 DG
 bv
@@ -37328,22 +37533,22 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
+pm
+YL
+Qw
+Qw
+DE
+ky
+xX
+hS
+CX
+DG
+DG
+DG
+DG
+DG
+DG
+DG
 DG
 DG
 rX
@@ -37585,22 +37790,22 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
+pm
+HN
+gS
+gS
+SN
+Zb
+rt
+Ck
+Zb
+DG
+DG
+DG
+DG
+DG
+DG
+DG
 DG
 DG
 DG
@@ -37842,22 +38047,22 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
+pm
+YL
+Gs
+Gs
+DE
+ky
+sS
+pg
+CX
+DG
+DG
+DG
+DG
+DG
+DG
+DG
 DG
 DG
 DG
@@ -38099,15 +38304,15 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
+iP
+HN
+gS
+gS
+SN
+iP
+Zb
+Zb
+iP
 Xk
 Xk
 Xk
@@ -38356,12 +38561,12 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
+WY
+zB
+uy
+mo
+jX
+iP
 Xk
 Xk
 Xk
@@ -38613,12 +38818,12 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
+iP
+iP
+iP
+iP
+iP
+iP
 Xk
 Xk
 Xk
