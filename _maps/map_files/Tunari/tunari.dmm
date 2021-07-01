@@ -265,6 +265,17 @@
 	},
 /turf/open/floor/iron,
 /area/science/mixing)
+"db" = (
+/obj/machinery/computer/secure_data{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 1
+	},
+/area/security/brig)
 "dd" = (
 /obj/machinery/embedded_controller/radio/airlock_controller/incinerator_toxmix{
 	pixel_y = 26
@@ -501,6 +512,10 @@
 /obj/machinery/computer/security,
 /turf/open/floor/iron/textured_large,
 /area/command/bridge)
+"eL" = (
+/obj/machinery/modular_computer/console/preset/cargochat/security,
+/turf/open/floor/iron/dark/textured_corner,
+/area/security/brig)
 "eN" = (
 /turf/open/floor/wood,
 /area/science/xenobiology)
@@ -612,6 +627,12 @@
 /obj/item/disk/nuclear,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
+"fI" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 4
+	},
+/area/security/brig)
 "fO" = (
 /obj/machinery/computer/security/mining,
 /obj/machinery/light/directional/north,
@@ -1729,6 +1750,10 @@
 "pm" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/reinforced,
+/obj/machinery/door/window/southleft,
+/obj/machinery/door/window/brigdoor/northleft{
+	req_access_txt = "63"
+	},
 /turf/open/floor/plating,
 /area/security/brig)
 "pn" = (
@@ -2342,6 +2367,10 @@
 	},
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"vg" = (
+/obj/machinery/computer/cargo/request,
+/turf/open/floor/iron/dark/textured_large,
+/area/security/brig)
 "vm" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 8;
@@ -4016,6 +4045,9 @@
 /obj/item/stock_parts/cell/high/plus,
 /turf/open/floor/iron/large,
 /area/science/research)
+"IB" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/security/brig)
 "ID" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/large,
@@ -4534,6 +4566,15 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/medical/medbay/lobby)
+"Ou" = (
+/obj/machinery/computer/security,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 8
+	},
+/area/security/brig)
 "Ov" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron/large,
@@ -5143,6 +5184,10 @@
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/plating/grass/jungle,
 /area/jungle/surface/outdoors)
+"Ut" = (
+/obj/structure/chair/office,
+/turf/open/floor/iron/dark/textured_large,
+/area/security/brig)
 "Uz" = (
 /obj/machinery/computer/shuttle/arrivals,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -5256,6 +5301,10 @@
 	},
 /turf/open/floor/iron/large,
 /area/cargo/office)
+"Vy" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark/textured_large,
+/area/security/brig)
 "VC" = (
 /turf/closed/wall,
 /area/cargo/storage)
@@ -37272,10 +37321,10 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
+iP
+iP
+iP
+iP
 iP
 HN
 gS
@@ -37529,11 +37578,11 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-pm
+iP
+eL
+Vy
+fI
+Zb
 YL
 Qw
 Qw
@@ -37786,10 +37835,10 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
+iP
+vg
+IB
+Ut
 pm
 HN
 gS
@@ -38043,11 +38092,11 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
-Xk
-pm
+iP
+Ou
+IB
+db
+Zb
 YL
 Gs
 Gs
