@@ -9,14 +9,21 @@
 	icon_state = "floor1"
 
 /turf/open/floor/iron/shuttle/arrivals
-	name = "floor"
+	name = "shuttle floor"
 	icon = 'modular_skyrat/modules/advanced_shuttles/icons/wagon.dmi'
 	icon_state = "floor"
 
-/*
-/turf/simulated/shuttle/floor/mining
-	icon = 'code/modules/locations/shuttles/shuttle_mining.dmi'
+/turf/open/floor/iron/shuttle/mining
+	name = "shuttle floor"
+	icon = 'modular_skyrat/modules/advanced_shuttles/icons/shuttle_mining.dmi'
+	icon_state = "3-4,5,6"
 
+/turf/floor/iron/shuttle/floor/cargo
+	name = "shuttle floor"
+	icon = 'modular_skyrat/modules/advanced_shuttles/icons/cargofloor.dmi'
+	icon_state = "1"
+
+/*
 /turf/simulated/shuttle/floor/shuttle_new
 	icon = 'code/modules/locations/shuttles/shuttle.dmi'
 
@@ -29,11 +36,6 @@
 	name = "floor"
 	icon = 'code/modules/locations/shuttles/erokez.dmi'
 	icon_state = "floor1"
-
-/turf/simulated/shuttle/floor/cargo
-	name = "floor"
-	icon = 'code/modules/locations/shuttles/cargofloor.dmi'
-	icon_state = "1"
 
 /turf/simulated/shuttle/floor/evac
 	name = "floor"

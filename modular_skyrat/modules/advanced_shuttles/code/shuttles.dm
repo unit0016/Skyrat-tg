@@ -54,8 +54,12 @@
 	port_id = "escape_pod"
 	suffix = "default_skyrat"
 
+/datum/map_template/shuttle/mining/skyrat
+	prefix = "_maps/skyrat/shuttles/"
+	suffix = "skyrat"
+	name = "mining shuttle (Skyrat)"
+
 /datum/map_template/shuttle/emergency/skyrat
 	suffix = "skyrat"
 	name = "Standard Emergency Shuttle"
 	description = "Nanotrasen's standard issue emergency shuttle."
-

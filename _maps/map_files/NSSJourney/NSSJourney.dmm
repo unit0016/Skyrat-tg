@@ -12540,7 +12540,7 @@
 	height = 5;
 	id = "mining_home";
 	name = "mining shuttle bay";
-	roundstart_template = /datum/map_template/shuttle/mining/box;
+	roundstart_template = /datum/map_template/shuttle/mining/skyrat;
 	width = 7
 	},
 /turf/open/space/basic,
@@ -34530,7 +34530,6 @@
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "cwT" = (
-/obj/item/beacon,
 /obj/machinery/camera{
 	c_tag = "Arrivals Bay 1 South"
 	},
@@ -48069,6 +48068,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral,
+/obj/item/beacon,
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
 "nNO" = (
@@ -78396,8 +78396,8 @@ ayb
 blW
 xzh
 sUX
-xzh
-xzh
+sUX
+sUX
 sUX
 sUX
 sUX
@@ -78654,8 +78654,8 @@ blW
 xzh
 sUX
 xzh
-xzh
 sUX
+xzh
 xzh
 xzh
 xzh
@@ -78911,8 +78911,8 @@ aZE
 xzh
 sUX
 xzh
-xzh
 sUX
+xzh
 xzh
 xzh
 xzh
@@ -79169,7 +79169,7 @@ aZE
 blW
 aZE
 aZE
-sUX
+xzh
 xzh
 xzh
 xzh
@@ -79426,7 +79426,7 @@ bZp
 brK
 bZp
 aZE
-sUX
+xzh
 xzh
 xzh
 xzh
@@ -79683,7 +79683,7 @@ qwZ
 xNZ
 qwZ
 blW
-sUX
+xzh
 xzh
 xzh
 xzh

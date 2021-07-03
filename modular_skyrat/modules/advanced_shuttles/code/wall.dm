@@ -41,6 +41,10 @@
 	icon = 'modular_skyrat/modules/advanced_shuttles/icons/wagon.dmi'
 	icon_state = "3,1"
 
+/turf/closed/wall/mineral/titanium/shuttle_wall/cargo
+	icon = 'modular_skyrat/modules/advanced_shuttles/icons/cargo.dmi'
+	icon_state = "0,0"
+
 /////////////////////////////////////////////WINDOWS//////////////////////////////////////////////////////////
 /turf/closed/wall/mineral/titanium/shuttle_wall/window
 	opacity = FALSE
@@ -60,3 +64,7 @@
 /turf/closed/wall/mineral/titanium/shuttle_wall/window/evac
 	icon = 'modular_skyrat/modules/advanced_shuttles/icons/evac_shuttle.dmi'
 	icon_state = "9,1"
+
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining
+	icon = 'modular_skyrat/modules/advanced_shuttles/icons/shuttle_mining.dmi'
+	icon_state = "1-4,6"

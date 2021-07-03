@@ -1,0 +1,308 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "1-1"
+	},
+/area/shuttle/mining)
+"b" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "4-3"
+	},
+/area/shuttle/mining)
+"c" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "1-2"
+	},
+/area/shuttle/mining)
+"d" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining{
+	icon_state = "5-6"
+	},
+/area/shuttle/mining)
+"e" = (
+/obj/structure/ore_box,
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "2-4,5,6"
+	},
+/area/shuttle/mining)
+"f" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "4-8"
+	},
+/area/shuttle/mining)
+"g" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "5-3"
+	},
+/area/shuttle/mining)
+"h" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "3-7"
+	},
+/area/shuttle/mining)
+"i" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "2-2"
+	},
+/area/shuttle/mining)
+"j" = (
+/obj/machinery/computer/shuttle/mining{
+	dir = 8
+	},
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "3-8"
+	},
+/area/shuttle/mining)
+"l" = (
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "4-5"
+	},
+/area/shuttle/mining)
+"m" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "5-7"
+	},
+/area/shuttle/mining)
+"n" = (
+/obj/structure/table,
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "4-7"
+	},
+/area/shuttle/mining)
+"o" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "5-1"
+	},
+/area/shuttle/mining)
+"q" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "4-9"
+	},
+/area/shuttle/mining)
+"r" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "5-9"
+	},
+/area/shuttle/mining)
+"s" = (
+/obj/structure/closet/shuttle/mining{
+	dir = 4
+	},
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "3-2"
+	},
+/area/shuttle/mining)
+"t" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "2-8"
+	},
+/area/shuttle/mining)
+"u" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "4-4,6"
+	},
+/area/shuttle/mining)
+"v" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "1-3"
+	},
+/area/shuttle/mining)
+"w" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "4-2"
+	},
+/area/shuttle/mining)
+"x" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "5-8"
+	},
+/area/shuttle/mining)
+"y" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining,
+/area/shuttle/mining)
+"C" = (
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "3-3"
+	},
+/area/shuttle/mining)
+"D" = (
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "4-4,6"
+	},
+/area/shuttle/mining)
+"E" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining{
+	icon_state = "3-9"
+	},
+/area/shuttle/mining)
+"F" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "4-1"
+	},
+/area/shuttle/mining)
+"G" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "1-8"
+	},
+/area/shuttle/mining)
+"H" = (
+/turf/open/floor/iron/shuttle/mining,
+/area/shuttle/mining)
+"I" = (
+/obj/structure/closet/crate,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "2-4,5,6"
+	},
+/area/shuttle/mining)
+"J" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "1-9"
+	},
+/area/shuttle/mining)
+"K" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "5-2"
+	},
+/area/shuttle/mining)
+"M" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining{
+	icon_state = "5-4"
+	},
+/area/shuttle/mining)
+"N" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "3-1"
+	},
+/area/shuttle/mining)
+"O" = (
+/obj/machinery/door/airlock/external{
+	name = "Mining Shuttle External Airlock"
+	},
+/obj/docking_port/mobile{
+	dwidth = 3;
+	height = 5;
+	id = "mining";
+	name = "mining shuttle";
+	port_direction = 4;
+	width = 7
+	},
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "5-5"
+	},
+/area/shuttle/mining)
+"P" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "2-3"
+	},
+/area/shuttle/mining)
+"Q" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "2-1"
+	},
+/area/shuttle/mining)
+"R" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "1-7"
+	},
+/area/shuttle/mining)
+"U" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "1-5"
+	},
+/area/shuttle/mining)
+"V" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "2-4,5,6"
+	},
+/area/shuttle/mining)
+"W" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining{
+	icon_state = "2-9"
+	},
+/area/shuttle/mining)
+"Y" = (
+/obj/structure/table,
+/obj/item/stock_parts/cell/crap,
+/obj/item/screwdriver{
+	pixel_y = -6
+	},
+/turf/open/floor/iron/shuttle/mining{
+	icon_state = "2-7"
+	},
+/area/shuttle/mining)
+
+(1,1,1) = {"
+a
+Q
+N
+F
+o
+"}
+(2,1,1) = {"
+c
+i
+s
+w
+K
+"}
+(3,1,1) = {"
+v
+P
+C
+b
+g
+"}
+(4,1,1) = {"
+y
+V
+H
+u
+M
+"}
+(5,1,1) = {"
+U
+I
+H
+l
+O
+"}
+(6,1,1) = {"
+y
+e
+H
+D
+d
+"}
+(7,1,1) = {"
+R
+Y
+h
+n
+m
+"}
+(8,1,1) = {"
+G
+t
+j
+f
+x
+"}
+(9,1,1) = {"
+J
+W
+E
+q
+r
+"}
