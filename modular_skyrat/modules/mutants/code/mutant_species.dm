@@ -26,8 +26,12 @@
 /mob/living/carbon/human/species/mutant
 	race = /datum/species/mutant
 
-/mob/living/carbon/human/species/mutant/infectious
+/mob/living/carbon/human/species/mutant/monkeyAI
+	ai_controller = /datum/ai_controller/monkey
+
+/mob/living/carbon/human/species/mutant/infectious/monkeyAI
 	race = /datum/species/mutant/infectious
+	ai_controller = /datum/ai_controller/monkey //This is one asking for trouble.
 
 /datum/species/mutant/infectious
 	name = "Mutated Abomination"
