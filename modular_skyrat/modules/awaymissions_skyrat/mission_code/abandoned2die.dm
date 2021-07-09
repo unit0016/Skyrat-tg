@@ -7,7 +7,7 @@
 	icon_state = "tank"
 	icon_living = "tank"
 	icon_dead = "tank_dead"
-	icon = 'modular_skyrat/modules/awaymissons_skyrat/icons/tank.dmi'
+	icon = 'modular_skyrat/modules/awaymissions_skyrat/icons/64x64tank.dmi'
 	attack_verb_continuous = "slams"
 	attack_verb_simple = "slam"
 	attack_sound = 'sound/effects/bang.ogg'
