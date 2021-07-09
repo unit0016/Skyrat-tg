@@ -5,6 +5,12 @@
 /turf/closed/wall/r_wall
 	icon = 'modular_skyrat/modules/aesthetics/walls/icons/reinforced_wall.dmi'
 
+/turf/closed/indestructible/reinforced
+	icon = 'modular_skyrat/modules/aesthetics/walls/icons/reinforced_wall.dmi'
+
+/turf/closed/indestructible/fakedoor
+	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/centcom/centcom.dmi'
+
 /turf/closed/wall/rust
 	icon = 'modular_skyrat/modules/aesthetics/walls/icons/wall.dmi'
 	icon_state = "wall-0"
