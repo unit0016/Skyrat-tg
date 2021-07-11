@@ -161,6 +161,7 @@
 
 	if(forced)
 		target.AddComponent(/datum/component/mutant_infection)
+		return TRUE
 
 	if(NOZOMBIE in target.dna.species.species_traits)
 		// cannot infect any NOZOMBIE subspecies (such as high functioning
