@@ -8,10 +8,10 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "azR" = (
-/obj/effect/turf_decal/siding/wideplating{
-	dir = 1
+/obj/structure/railing/stone{
+	dir = 4
 	},
-/turf/open/floor/wood,
+/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "aQh" = (
 /turf/open/indestructible/cobble/side{
@@ -19,8 +19,7 @@
 	},
 /area/space)
 "bpE" = (
-/obj/structure/flora/stump,
-/turf/open/floor/plating/sandy_dirt,
+/turf/open/floor/iron/stairs/left,
 /area/space)
 "brq" = (
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier{
@@ -65,26 +64,23 @@
 "cDt" = (
 /turf/open/floor/mineral/plastitanium,
 /area/space)
-"cGl" = (
+"cIC" = (
+/obj/item/clothing/suit/armor/riot/knight,
+/obj/item/clothing/head/helmet/knight,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/space)
 "cUb" = (
-/obj/structure/railing/stone{
-	dir = 4
-	},
-/turf/open/floor/plating/sandy_dirt,
+/turf/open/floor/iron/stairs/medium,
 /area/space)
 "cXa" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/structure/mineral_door/wood,
-/turf/open/floor/wood,
+/turf/open/floor/iron/stairs/right,
 /area/space)
 "cZL" = (
-/obj/effect/turf_decal/siding/wideplating/corner,
-/turf/open/floor/wood,
+/obj/structure/railing/stone{
+	dir = 8
+	},
+/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "dbp" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -100,11 +96,13 @@
 /turf/open/floor/grass,
 /area/space)
 "dov" = (
-/obj/effect/turf_decal/siding/wideplating,
-/turf/open/floor/wood,
+/obj/structure/flora/rock,
+/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "dwo" = (
-/turf/open/floor/iron/stairs/left,
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/turf/open/floor/wood,
 /area/space)
 "dxS" = (
 /obj/structure/chair/stool/bar,
@@ -160,17 +158,21 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
 "ehj" = (
-/turf/open/floor/iron/stairs/medium,
+/obj/structure/fireplace,
+/turf/open/floor/wood,
 /area/space)
 "eql" = (
 /turf/open/indestructible/cobble/side{
 	dir = 8
 	},
 /area/space)
-"eFD" = (
-/obj/item/claymore/weak/weaker,
-/obj/structure/table/wood,
+"evJ" = (
+/mob/living/carbon/human/species/mutant/monkeyAI,
 /turf/open/floor/wood,
+/area/space)
+"eFD" = (
+/obj/structure/flora/rock/jungle,
+/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "eGn" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -186,7 +188,8 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "eYL" = (
-/turf/open/floor/iron/stairs/right,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
 /area/space)
 "ffI" = (
 /turf/open/indestructible/cobble,
@@ -199,42 +202,20 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "fXY" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/space)
-"ghJ" = (
-/obj/structure/railing/stone{
-	dir = 8
+/obj/structure/railing/stone/left{
+	dir = 4
 	},
 /turf/open/floor/plating/sandy_dirt,
 /area/space)
-"gsz" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	dir = 1
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/indestructible/cobble/corner{
-	dir = 4
-	},
-/area/space)
 "guj" = (
-/obj/structure/flora/rock,
+/obj/structure/railing/stone/right{
+	dir = 8
+	},
 /turf/open/floor/plating/sandy_dirt,
 /area/space)
 "gzZ" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	dir = 4
-	},
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/indestructible/cobble/corner{
-	dir = 8
-	},
+/obj/structure/mineral_door/wood,
+/turf/open/floor/wood,
 /area/space)
 "gCU" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -243,8 +224,7 @@
 /turf/open/floor/grass,
 /area/space)
 "gJp" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
+/obj/structure/bookcase,
 /turf/open/floor/wood,
 /area/space)
 "gOL" = (
@@ -310,9 +290,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "iKp" = (
-/turf/open/indestructible/cobble/side{
-	dir = 1
-	},
+/obj/item/hatchet/wooden,
+/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "iNq" = (
 /obj/effect/spawner/liquids_spawner,
@@ -334,13 +313,8 @@
 /turf/open/floor/wood,
 /area/space)
 "jna" = (
-/obj/effect/turf_decal/siding/wideplating{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/indestructible/cobble/side,
+/obj/structure/chair/wood,
+/turf/open/floor/wood,
 /area/space)
 "jpS" = (
 /obj/structure/chair/stool/bar{
@@ -357,10 +331,7 @@
 /area/space)
 "jFd" = (
 /obj/structure/table/wood,
-/obj/item/storage/bag/quiver,
-/obj/item/ammo_casing/caseless/arrow,
-/obj/item/ammo_casing/caseless/arrow,
-/obj/item/ammo_casing/caseless/arrow,
+/obj/item/gun/ballistic/tribalbow,
 /turf/open/floor/stone,
 /area/space)
 "jJe" = (
@@ -377,20 +348,14 @@
 /turf/open/floor/wood,
 /area/space)
 "jVJ" = (
-/obj/structure/table,
-/obj/effect/turf_decal/siding/wideplating/corner{
-	dir = 8
-	},
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/turf/open/indestructible/cobble/corner,
+/obj/structure/table/wood,
+/obj/item/storage/bag/quiver,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/turf/open/floor/stone,
 /area/space)
 "jXC" = (
-/turf/open/water,
-/area/space)
-"kpt" = (
-/obj/effect/turf_decal/siding/wideplating,
 /turf/open/water,
 /area/space)
 "kAm" = (
@@ -408,9 +373,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "kPF" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	dir = 4
-	},
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/mineral_door/wood,
 /turf/open/floor/wood,
 /area/space)
 "kPJ" = (
@@ -419,14 +383,29 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"kYo" = (
+/obj/effect/turf_decal/siding/wideplating/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/space)
 "ldf" = (
-/obj/structure/destructible/cult/forge,
-/turf/open/floor/plating/sandy_dirt,
+/obj/effect/turf_decal/siding/wideplating/corner,
+/obj/structure/railing/corner,
+/turf/open/indestructible/cobble/corner{
+	dir = 1
+	},
 /area/space)
 "llX" = (
 /obj/structure/barricade/wooden,
 /obj/machinery/door/airlock/grunge,
 /turf/open/floor/iron/dark/textured_large,
+/area/space)
+"lrv" = (
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 1
+	},
+/turf/open/floor/wood,
 /area/space)
 "lwv" = (
 /turf/closed/indestructible/stone,
@@ -444,8 +423,14 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "lNW" = (
-/obj/item/hatchet/wooden,
-/turf/open/floor/plating/sandy_dirt,
+/obj/structure/table,
+/obj/effect/turf_decal/siding/wideplating/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/indestructible/cobble/corner,
 /area/space)
 "lQN" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
@@ -473,9 +458,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "mgm" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/mineral_door/wood,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wideplating,
+/turf/open/water,
 /area/space)
 "mog" = (
 /obj/effect/turf_decal/siding/wideplating{
@@ -489,10 +473,7 @@
 	},
 /area/space)
 "msJ" = (
-/obj/effect/turf_decal/siding/wideplating{
-	dir = 8
-	},
-/turf/open/floor/wood,
+/turf/open/lava,
 /area/space)
 "mJv" = (
 /obj/structure/chair/comfy/shuttle{
@@ -503,6 +484,13 @@
 	dir = 10
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"mLo" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/mineral_door/wood,
+/turf/open/floor/wood,
 /area/space)
 "mLz" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -537,14 +525,27 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "nMc" = (
-/obj/structure/fireplace,
-/turf/open/floor/wood,
+/obj/structure/table,
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/indestructible/cobble/side{
+	dir = 4
+	},
 /area/space)
 "nMH" = (
-/obj/item/clothing/suit/armor/riot/knight,
-/obj/item/clothing/head/helmet/knight,
-/obj/structure/table/wood,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wideplating/corner{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/indestructible/cobble/corner{
+	dir = 8
+	},
 /area/space)
 "nNd" = (
 /obj/structure/sink{
@@ -552,10 +553,6 @@
 	pixel_x = 12
 	},
 /turf/open/floor/wood,
-/area/space)
-"nNR" = (
-/obj/structure/flora/rock/jungle,
-/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "nPg" = (
 /obj/structure/railing/corner,
@@ -602,17 +599,17 @@
 	},
 /turf/open/floor/grass,
 /area/space)
+"pbB" = (
+/obj/effect/turf_decal/siding/wideplating/corner{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/space)
 "pel" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
-"piQ" = (
-/obj/structure/railing/stone/left{
-	dir = 4
-	},
-/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "plD" = (
 /obj/effect/decal/cleanable/crayon{
@@ -644,7 +641,8 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "qaN" = (
-/turf/open/floor/plating/cobblestone,
+/obj/effect/turf_decal/siding/wideplating,
+/turf/open/floor/wood,
 /area/space)
 "qnc" = (
 /obj/structure/chair/comfy/shuttle{
@@ -706,10 +704,9 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "rjn" = (
-/obj/structure/railing/stone/right{
-	dir = 8
+/turf/open/indestructible/cobble/side{
+	dir = 1
 	},
-/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "rRA" = (
 /obj/structure/railing/corner{
@@ -725,7 +722,11 @@
 /turf/open/floor/grass,
 /area/space)
 "sFS" = (
-/turf/open/lava,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/mineral_door/wood,
+/turf/open/floor/wood,
 /area/space)
 "tcM" = (
 /obj/effect/decal/cleanable/blood/tracks,
@@ -736,9 +737,13 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "tqa" = (
-/obj/structure/table/wood,
-/obj/item/gun/ballistic/tribalbow,
-/turf/open/floor/stone,
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/indestructible/cobble/side,
 /area/space)
 "tBa" = (
 /turf/closed/indestructible/fakedoor/station/firelock,
@@ -755,26 +760,23 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
 "tRq" = (
-/obj/effect/turf_decal/siding/wideplating{
+/obj/effect/turf_decal/siding/wideplating/corner{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/indestructible/cobble/corner{
 	dir = 4
 	},
-/turf/open/floor/wood,
 /area/space)
 "tRG" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /turf/open/floor/iron/dark,
 /area/space)
 "tWK" = (
-/obj/structure/table,
-/obj/effect/turf_decal/siding/wideplating{
-	dir = 8
-	},
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/indestructible/cobble/side{
-	dir = 4
-	},
+/obj/effect/turf_decal/siding/wideplating/corner,
+/turf/open/floor/wood,
 /area/space)
 "tXn" = (
 /obj/structure/chair/comfy/shuttle{
@@ -805,8 +807,9 @@
 /turf/open/floor/grass,
 /area/space)
 "usH" = (
-/obj/structure/table/wood,
-/obj/item/candle,
+/obj/effect/turf_decal/siding/wideplating/corner{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/space)
 "utJ" = (
@@ -864,8 +867,7 @@
 /turf/open/floor/wood,
 /area/space)
 "voi" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/wood,
+/turf/open/indestructible/cobble/side,
 /area/space)
 "vDE" = (
 /obj/structure/chair/comfy/shuttle{
@@ -879,10 +881,8 @@
 /turf/closed/indestructible/syndicate,
 /area/space)
 "vMG" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/structure/mineral_door/wood,
+/obj/item/claymore/weak/weaker,
+/obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/space)
 "vUt" = (
@@ -894,8 +894,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "wfJ" = (
-/obj/structure/bookcase,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wideplating,
+/obj/structure/railing,
+/turf/open/indestructible/cobble/side{
+	dir = 1
+	},
 /area/space)
 "wiX" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -913,7 +916,8 @@
 	},
 /area/space)
 "wwv" = (
-/mob/living/carbon/human/species/mutant/monkeyAI,
+/obj/structure/table/wood,
+/obj/item/candle,
 /turf/open/floor/wood,
 /area/space)
 "wTt" = (
@@ -924,15 +928,16 @@
 /turf/open/floor/plastic,
 /area/space)
 "wUy" = (
-/obj/structure/chair/wood,
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/space)
 "wWv" = (
-/obj/effect/turf_decal/siding/wideplating/corner,
-/obj/structure/railing/corner,
-/turf/open/indestructible/cobble/corner{
-	dir = 1
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 8
 	},
+/turf/open/floor/wood,
 /area/space)
 "wXI" = (
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier{
@@ -945,11 +950,8 @@
 /turf/open/floor/wood,
 /area/space)
 "xsY" = (
-/obj/effect/turf_decal/siding/wideplating,
-/obj/structure/railing,
-/turf/open/indestructible/cobble/side{
-	dir = 1
-	},
+/obj/structure/flora/stump,
+/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "xEI" = (
 /obj/structure/table/glass,
@@ -959,13 +961,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "xKg" = (
-/turf/open/indestructible/cobble/side,
+/turf/open/floor/plating/cobblestone,
 /area/space)
 "xQi" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	dir = 1
-	},
-/turf/open/floor/wood,
+/obj/structure/destructible/cult/forge,
+/turf/open/floor/plating/sandy_dirt,
 /area/space)
 "xVy" = (
 /obj/structure/chair/comfy/shuttle{
@@ -1217,14 +1217,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 xXs
 xXs
 xXs
@@ -1238,14 +1230,22 @@ lwv
 lwv
 lwv
 osG
-iKp
+rjn
 ffI
-xKg
+voi
 osG
 lwv
 lwv
 lwv
 lwv
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
 xXs
 xXs
 xXs
@@ -1474,14 +1474,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 xXs
 xXs
 xXs
@@ -1491,18 +1483,26 @@ xXs
 xXs
 xXs
 lwv
-tqa
+jFd
 jqv
 lwv
 osG
-iKp
+rjn
 ffI
-xKg
+voi
 osG
 lwv
 jqv
 jqv
 lwv
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
 xXs
 xXs
 xXs
@@ -1731,14 +1731,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 lwv
 lwv
@@ -1748,7 +1740,7 @@ lwv
 lwv
 lwv
 lwv
-jFd
+jVJ
 jqv
 lwv
 lwv
@@ -1760,6 +1752,14 @@ lwv
 jqv
 jqv
 lwv
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
 xXs
 xXs
 xXs
@@ -1988,20 +1988,12 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
 osG
 osG
-nNR
+eFD
 osG
 osG
 lwv
@@ -2009,14 +2001,22 @@ jqv
 jqv
 jqv
 jqv
-iKp
+rjn
 ffI
-xKg
+voi
 jqv
 jqv
 jqv
 jqv
 lwv
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
 xXs
 xXs
 xXs
@@ -2245,14 +2245,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
@@ -2266,9 +2258,9 @@ lwv
 lwv
 lwv
 jqv
-iKp
+rjn
 ffI
-xKg
+voi
 jqv
 lwv
 lwv
@@ -2277,6 +2269,14 @@ lwv
 lwv
 lwv
 lwv
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
 xXs
 xXs
 xXs
@@ -2502,17 +2502,9 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
-guj
+dov
 osG
 osG
 osG
@@ -2523,18 +2515,26 @@ osG
 osG
 osG
 osG
-iKp
+rjn
 ffI
+voi
+osG
+osG
+osG
+osG
+xsY
+iKp
 xKg
-osG
-osG
-osG
-osG
-bpE
-lNW
-qaN
 lwv
 lwv
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
 xXs
 xXs
 xXs
@@ -2759,14 +2759,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 jXC
 jXC
 jXC
@@ -2780,18 +2772,26 @@ jXC
 jXC
 jXC
 jXC
-iKp
+rjn
 ffI
-xKg
+voi
 jXC
-kpt
+mgm
 osG
 osG
 osG
 osG
 osG
-qaN
+xKg
 lwv
+lwv
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
+xXs
 xXs
 xXs
 xXs
@@ -3016,14 +3016,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 jXC
 jXC
 jXC
@@ -3037,20 +3029,28 @@ jXC
 jXC
 jXC
 jXC
-iKp
+rjn
 ffI
-xKg
+voi
 jXC
-kpt
+mgm
 osG
 osG
-ldf
+xQi
+osG
 osG
 osG
 osG
 lwv
+lwv
 xXs
 xXs
+xXs
+xXs
+lwv
+lwv
+lwv
+lwv
 xXs
 xXs
 xXs
@@ -3273,14 +3273,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 jXC
 jXC
 jXC
@@ -3294,21 +3286,29 @@ jXC
 jXC
 jXC
 jXC
-iKp
+rjn
 ffI
-xKg
+voi
 jXC
-kpt
+mgm
 osG
 osG
 osG
 osG
 osG
-qaN
+osG
+osG
+xKg
+lwv
 lwv
 xXs
 xXs
-xXs
+lwv
+lwv
+osG
+osG
+lwv
+lwv
 xXs
 xXs
 "}
@@ -3530,14 +3530,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
@@ -3551,21 +3543,29 @@ lwv
 lwv
 lwv
 osG
-iKp
+rjn
 ffI
-xKg
-wWv
+voi
+ldf
 mog
-gzZ
+nMH
+osG
+osG
+osG
 osG
 osG
 osG
 osG
 osG
 lwv
-xXs
-xXs
-xXs
+lwv
+lwv
+lwv
+osG
+osG
+osG
+osG
+lwv
 xXs
 xXs
 "}
@@ -3787,54 +3787,46 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
 lwv
-gJp
-cGl
-gJp
+dwo
+eYL
+dwo
 lwv
-wfJ
-wfJ
+gJp
+gJp
 jyM
 lwv
 osG
-iKp
+rjn
 ffI
-xKg
-xsY
-sFS
-jna
+voi
+wfJ
+msJ
+tqa
 vjN
 vjN
 vjN
 vjN
 osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
 lwv
-xXs
-xXs
-xXs
+lwv
 xXs
 xXs
 "}
 (12,1,1) = {"
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 ymg
 ymg
 ymg
@@ -4067,18 +4059,26 @@ lwv
 eql
 ffI
 ffI
-xKg
-jVJ
-tWK
-gsz
+voi
+lNW
+nMc
+tRq
 vjN
-nMH
-cGl
+cIC
+eYL
 vjN
 osG
+osG
+osG
+xKg
+osG
+osG
+osG
+osG
+osG
+osG
 lwv
-xXs
-xXs
+lwv
 xXs
 xXs
 xXs
@@ -4301,40 +4301,40 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
 lwv
-nMc
+ehj
 jNE
 jNE
+gzZ
+jNE
+jNE
+jNE
+kPF
+ffI
+ffI
+ffI
 voi
+vjN
+vjN
+vjN
+vjN
 jNE
 jNE
-jNE
-mgm
-ffI
-ffI
-ffI
+vjN
+osG
+osG
+osG
+osG
+osG
+osG
 xKg
-vjN
-vjN
-vjN
-vjN
-jNE
-jNE
-vjN
-qaN
+osG
+osG
+osG
 lwv
-xXs
 xXs
 xXs
 xXs
@@ -4558,14 +4558,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
@@ -4574,24 +4566,32 @@ jNE
 jNE
 jNE
 lwv
-wUy
+jna
 jNE
 jNE
 lwv
 aQh
 ffI
 ffI
-xKg
+voi
 vjN
 jNE
 jNE
-eFD
+vMG
 jNE
 jNE
 vjN
 osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
 lwv
-xXs
 xXs
 xXs
 xXs
@@ -4815,40 +4815,40 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
 lwv
-gJp
-cGl
-gJp
+dwo
+eYL
+dwo
 lwv
-cGl
+eYL
 jNE
 jNE
 lwv
 osG
-iKp
+rjn
 ffI
-xKg
-vMG
+voi
+sFS
 jNE
 jNE
-cGl
-wwv
+eYL
+evJ
 jNE
 vjN
 osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+xKg
+osG
 lwv
-xXs
 xXs
 xXs
 xXs
@@ -5072,14 +5072,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
@@ -5093,20 +5085,28 @@ lwv
 lwv
 lwv
 osG
-iKp
+rjn
 ffI
-xKg
+voi
 vjN
 jNE
 jNE
-usH
+wwv
 jNE
 jNE
 vjN
-qaN
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
 lwv
-xXs
-xXs
+lwv
 xXs
 xXs
 xXs
@@ -5329,20 +5329,12 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
-cUb
-cUb
-cUb
-cUb
-piQ
+azR
+azR
+azR
+azR
+fXY
 osG
 osG
 osG
@@ -5350,20 +5342,28 @@ osG
 osG
 osG
 osG
-iKp
+rjn
 ffI
-xKg
+voi
 vjN
-wUy
+jna
 jNE
 jNE
 jNE
 jNE
 vjN
 osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
 lwv
-lwv
-xXs
 xXs
 xXs
 xXs
@@ -5586,19 +5586,11 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 eql
-dwo
-dwo
-dwo
-dwo
+bpE
+bpE
+bpE
+bpE
 eql
 eql
 eql
@@ -5609,17 +5601,25 @@ eql
 eql
 ffI
 ffI
-xKg
+voi
 vjN
 vjN
 vjN
 vjN
 vjN
-cXa
+mLo
 vjN
 osG
 osG
-lwv
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
 lwv
 xXs
 xXs
@@ -5843,19 +5843,11 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 ffI
-ehj
-ehj
-ehj
-ehj
+cUb
+cUb
+cUb
+cUb
 ffI
 ffI
 ffI
@@ -5866,7 +5858,7 @@ ffI
 ffI
 ffI
 ffI
-xKg
+voi
 osG
 osG
 osG
@@ -5876,11 +5868,19 @@ osG
 osG
 osG
 osG
-qaN
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
+osG
 lwv
-lwv
-lwv
-lwv
+xXs
+xXs
+xXs
 "}
 (20,1,1) = {"
 ymg
@@ -6100,19 +6100,11 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 aQh
-eYL
-eYL
-eYL
-eYL
+cXa
+cXa
+cXa
+cXa
 aQh
 aQh
 aQh
@@ -6123,7 +6115,7 @@ aQh
 aQh
 ffI
 ffI
-xKg
+voi
 osG
 osG
 osG
@@ -6135,9 +6127,17 @@ osG
 osG
 osG
 osG
+vjN
+vjN
+vjN
+vjN
+vjN
 osG
 osG
 lwv
+xXs
+xXs
+xXs
 "}
 (21,1,1) = {"
 ymg
@@ -6357,30 +6357,22 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
-ghJ
-ghJ
-ghJ
-ghJ
-rjn
+cZL
+cZL
+cZL
+cZL
+guj
 osG
 osG
 osG
 osG
 osG
-qaN
-qaN
-iKp
-ffI
 xKg
+xKg
+rjn
+ffI
+voi
 vjN
 vjN
 vjN
@@ -6392,9 +6384,17 @@ vjN
 osG
 osG
 osG
+vjN
+jNE
+jNE
+jNE
+vjN
 osG
 osG
 lwv
+xXs
+xXs
+xXs
 "}
 (22,1,1) = {"
 ymg
@@ -6614,14 +6614,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
@@ -6635,23 +6627,31 @@ osG
 osG
 osG
 osG
-iKp
+rjn
 ffI
-xKg
+voi
 vjN
 jNE
-cZL
-tRq
-tRq
-kPF
+tWK
+wUy
+wUy
+kYo
 jNE
 vjN
 osG
-qaN
 osG
+osG
+vjN
+jNE
+jNE
+jNE
+vjN
 osG
 osG
 lwv
+xXs
+xXs
+xXs
 "}
 (23,1,1) = {"
 ymg
@@ -6871,14 +6871,6 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
 lwv
 osG
 osG
@@ -6889,26 +6881,34 @@ osG
 osG
 osG
 osG
-qaN
-osG
-osG
-iKp
-ffI
 xKg
-vMG
+osG
+osG
+rjn
+ffI
+voi
+sFS
 jNE
-dov
+qaN
+msJ
+msJ
+lrv
+jNE
+vjN
+osG
+osG
+osG
 sFS
-sFS
-azR
+jNE
+jNE
 jNE
 vjN
 osG
 osG
 lwv
-lwv
-lwv
-lwv
+xXs
+xXs
+xXs
 "}
 (24,1,1) = {"
 ymg
@@ -7128,44 +7128,44 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-iKp
-ffI
-xKg
+lwv
+osG
+osG
+osG
 vjN
-wUy
-fXY
-msJ
-msJ
-xQi
+vjN
+vjN
+vjN
+vjN
+jNE
+osG
+osG
+osG
+rjn
+ffI
+voi
+vjN
+jna
+usH
+wWv
+wWv
+pbB
 jNE
 vjN
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+vjN
+osG
+osG
+lwv
+xXs
+xXs
+xXs
 "}
 (25,1,1) = {"
 ymg
@@ -7385,44 +7385,44 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-iKp
+lwv
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+jNE
+jNE
+jNE
+osG
+osG
+rjn
 ffI
-xKg
-vjN
-vjN
-vjN
-vjN
-vjN
 voi
 vjN
 vjN
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
+vjN
+vjN
+vjN
+gzZ
+vjN
+vjN
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+vjN
+osG
+osG
+lwv
+xXs
+xXs
+xXs
 "}
 (26,1,1) = {"
 ymg
@@ -7642,30 +7642,22 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-iKp
+lwv
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+jNE
+jNE
+vjN
+osG
+osG
+rjn
 ffI
-xKg
+voi
 osG
 osG
 vjN
@@ -7674,12 +7666,20 @@ jNE
 jNE
 jNE
 vjN
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
+osG
+osG
+osG
+vjN
+vjN
+vjN
+vjN
+vjN
+osG
+osG
+lwv
+xXs
+xXs
+xXs
 "}
 (27,1,1) = {"
 ymg
@@ -7899,38 +7899,38 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-iKp
+lwv
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+jNE
+jNE
+vjN
+osG
+osG
+rjn
 ffI
-xKg
+voi
 osG
 osG
 vjN
-gJp
+dwo
 jNE
 jNE
 jNE
 vjN
+ymg
+ymg
+ymg
+ymg
+ymg
+ymg
+ymg
+ymg
 ymg
 ymg
 ymg
@@ -8156,30 +8156,22 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-iKp
+lwv
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+jNE
+jNE
+vjN
+eql
+eql
 ffI
-xKg
+ffI
+voi
 osG
 osG
 vjN
@@ -8188,6 +8180,14 @@ vjN
 vjN
 vjN
 vjN
+ymg
+ymg
+ymg
+ymg
+ymg
+ymg
+ymg
+ymg
 ymg
 ymg
 ymg
@@ -8413,30 +8413,30 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-iKp
+lwv
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+jNE
+jNE
+jNE
 ffI
-xKg
+ffI
+ffI
+ffI
+voi
+ymg
+ymg
+ymg
+ymg
+ymg
+ymg
+ymg
+ymg
 ymg
 ymg
 ymg
@@ -8670,22 +8670,22 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
+lwv
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+jNE
+jNE
+vjN
+aQh
+aQh
+ffI
+ffI
+voi
 ymg
 ymg
 ymg
@@ -8927,17 +8927,17 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
+lwv
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+jNE
+jNE
+vjN
 ymg
 ymg
 ymg
@@ -9184,17 +9184,17 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
+lwv
+osG
+osG
+osG
+vjN
+jNE
+jNE
+jNE
+jNE
+jNE
+vjN
 ymg
 ymg
 ymg
@@ -9441,17 +9441,17 @@ ymg
 ymg
 ymg
 ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
-ymg
+lwv
+osG
+osG
+osG
+vjN
+vjN
+vjN
+vjN
+vjN
+vjN
+vjN
 ymg
 ymg
 ymg
